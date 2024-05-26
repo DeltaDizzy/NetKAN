@@ -1,0 +1,21 @@
+{
+    "spec_version": 1,
+    "identifier":   "Heracleitus",
+    "name":         "Heracleitus",
+    "$kref":        "#/ckan/spacedock/2644",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager"}
+    ],
+    "x_netkan_override": [ {
+        "version": "1.2",
+        "override": {
+            "ksp_version_min": "1.11.1"
+        }
+    } ]
+}

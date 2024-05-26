@@ -1,18 +1,24 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "BDArmoryContinued",
-    "name" : "BDArmoryContinued",
-    "abstract": "The original Weapons mod by BahamutoD, continued!",
+    "spec_version": "v1.18",
+    "identifier":   "BDArmoryContinued",
+    "name":         "BD Armory Continued",
+    "abstract":     "The original Weapons mod by BahamutoD, continued!",
+    "author":       [ "BahamutoD", "Papa_Joe", "jrodrigv", "ouloul" ],
+    "$kref":        "#/ckan/github/PapaJoesSoup/BDArmory",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license":      "CC-BY-SA-2.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155014-*",
-        "spacedock": "https://spacedock.info/mod/867/BDArmoryContinued",
-        "repository": "https://github.com/PapaJoesSoup/BDArmory",
+        "homepage":     "https://forum.kerbalspaceprogram.com/index.php?/topic/184167-*",
+        "repository":   "https://github.com/PapaJoesSoup/BDArmory",
         "x_screenshot": "https://spacedock.info/content/Papa_Joe_926/BDArmoryContinued/BDArmoryContinued-1470103192.4904277.png"
     },
-    "$kref": "#/ckan/github/PapaJoesSoup/BDArmory",
-    "$vref": "#/ckan/ksp-avc",
-    "author": [ "BahamutoD", "Papa_Joe", "jrodrigv", "ouloul" ],
-    "license": "CC-BY-SA-2.0",
+    "tags": [
+        "plugin",
+        "parts",
+        "sound",
+        "combat"
+    ],
     "provides": [
 	    "BDArmory"
 	],
@@ -20,15 +26,21 @@
         { "name": "BDArmory" }
     ],
     "depends": [
+        { "name": "ModuleManager"        },
         { "name": "PhysicsRangeExtender" }
     ],
-    "install": [
-        {
-            "find": "BDArmory",
-            "install_to": "GameData"
-        }
+    "suggests": [
+        { "name": "BDModularMissileParts" }
     ],
-    "x_netkan_epoch": 1,
+    "install": [ {
+        "find":       "BDArmory",
+        "install_to": "GameData",
+        "filter":     [ "craft" ]
+    }, {
+        "find":       "craft",
+        "install_to": "Ships",
+        "as":         "SPH"
+    } ],
     "x_netkan_override": [
         {
             "version": "v0.2.1.0",

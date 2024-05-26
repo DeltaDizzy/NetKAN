@@ -1,0 +1,34 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SSTOProject",
+    "$kref":        "#/ckan/spacedock/2417",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "parts",
+        "science",
+        "tech-tree",
+        "resources"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "CommunityTechTree" },
+        { "name": "RealSolarSystem"   },
+        { "name": "ModularFuelTanks"  },
+        { "name": "SMURFF"            }
+    ],
+    "suggests": [
+        { "name": "B9AerospaceHX" },
+        { "name": "ProceduralParts" }
+    ],
+    "supports": [
+        { "name": "TETRIXTechTree"                         },
+        { "name": "BluedogDB"                              },
+        { "name": "BehemothAerospaceEngineeringLargeParts" },
+        { "name": "RealEngines"                            },
+        { "name": "RealScaleBoosters"                      }
+    ]
+}

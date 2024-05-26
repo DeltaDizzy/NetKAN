@@ -1,17 +1,24 @@
 {
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/228",
-    "identifier": "WalkAbout",
-    "x_netkan_license_ok": true,
-    "resources" : {
-    "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/130575-*"
-    },
+    "identifier":   "WalkAbout",
+    "$kref":        "#/ckan/spacedock/228",
+    "$vref":        "#/ckan/ksp-avc",
     "x_netkan_force_v": true,
-    "install": [
-        {
-            "find": "WalkAbout",
-            "install_to": "GameData",
-            "filter": "source"
-        }
-    ]
+    "x_netkan_epoch": "1",
+    "license":      "GPL-3.0",
+    "depends": [
+        { "name": "SpaceTuxLibrary"     },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "tags": [
+        "plugin",
+        "crewed",
+        "convenience"
+    ],
+    "install": [ {
+        "find":       "WalkAbout",
+        "install_to": "GameData",
+        "filter":     [ "source" ]
+    } ]
 }

@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbalGPSRevived",
+    "name":         "Kerbal GPS",
+    "abstract":     "Adds support for GPS satelites",
+    "author":       "linuxgurugamer",
+    "$kref":        "#/ckan/spacedock/1949",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "plugin",
+        "parts",
+        "uncrewed"
+    ],
+    "recommends": [
+        { "name": "ContractConfigurator" }
+    ],
+    "depends": [
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "install": [ {
+        "find":       "KerbalGPS",
+        "install_to": "GameData"
+    } ]
+}

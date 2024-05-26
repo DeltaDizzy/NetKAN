@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "DeflatableHeatShield",
+    "$kref":        "#/ckan/spacedock/918",
+    "license":      "public-domain",
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "XyphosAerospace",
+        "install_to": "GameData"
+    } ]
+}

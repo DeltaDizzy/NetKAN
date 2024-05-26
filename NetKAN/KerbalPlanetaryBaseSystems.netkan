@@ -1,9 +1,13 @@
 {
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-4.0",
-    "$kref": "#/ckan/spacedock/173",
-    "$vref": "#/ckan/ksp-avc",
-    "identifier": "KerbalPlanetaryBaseSystems",
+    "identifier":   "KerbalPlanetaryBaseSystems",
+    "$kref":        "#/ckan/spacedock/173",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
     "install": [
         {
             "find"       : "PlanetaryBaseInc",
@@ -12,8 +16,9 @@
         }
     ],
     "depends" : [
-        { "name" : "CommunityCategoryKit" },
-        { "name" : "CommunityResourcePack" }
+        { "name": "ModuleManager"         },
+        { "name": "CommunityCategoryKit"  },
+        { "name": "CommunityResourcePack" }
     ],
     "x_netkan_force_v": true
 }

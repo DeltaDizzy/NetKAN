@@ -1,0 +1,17 @@
+{
+    "spec_version": 1,
+    "identifier":   "MkerbIncScienceInstruments",
+    "$kref":        "#/ckan/spacedock/475",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts",
+        "science"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "file":       "Mkerb",
+        "install_to": "GameData"
+    } ]
+}

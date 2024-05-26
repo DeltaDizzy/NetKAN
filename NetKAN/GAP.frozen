@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "GAP",
+    "$kref":        "#/ckan/spacedock/70",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        { "name": "ModuleManager"        },
+        { "name": "ContractConfigurator" }
+    ],
+    "recommends": [
+        { "name": "WaypointManager" }
+    ],
+    "suggests": [
+        { "name": "KAS" },
+        { "name": "KIS" }
+    ],
+    "install": [ {
+        "find":       "GAP",
+        "install_to": "GameData/ContractPacks"
+    } ]
+}

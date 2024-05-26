@@ -1,0 +1,24 @@
+{
+    "spec_version"   : "v1.4",
+    "identifier"     : "SDHI-SharedAssets",
+    "$kref"          : "#/ckan/github/sumghai/SDHI_ServiceModuleSystem",
+    "name"           : "Sum Dum Heavy Industries - Shared Assets",
+    "abstract"       : "Agency folders shared by multiple SDHI-branded add-ons for Kerbal Space Program",
+    "license"        : "CC-BY-SA-4.0",
+    "ksp_version"    : "any",
+    "comment"        : "agencymod",
+    "release_status" : "stable",
+    "resources" : {
+        "repository"   : "https://github.com/sumghai/SDHI_ServiceModuleSystem",
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/48073-*"
+    },
+    "tags": [
+        "config"
+    ],
+    "install" : [
+        {
+            "find"       : "Agencies",
+            "install_to" : "GameData/SDHI"
+        }
+    ]
+}

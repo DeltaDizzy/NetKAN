@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TanksButNoTanks",
+    "$kref":        "#/ckan/spacedock/842",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "editor",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "TanksButNoTanks",
+        "install_to": "GameData"
+    } ]
+}

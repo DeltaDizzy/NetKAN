@@ -1,22 +1,29 @@
- { 
-   "spec_version"  : "v1.4", 
-   "identifier"    : "DMTanks-CargoBays", 
-   "name"          : "DaMichel's Cargo Bays", 
-   "abstract"      : "This is a set of three cylindrical cargo bays in the 2.5m form factor. They are 1m, 2m, and 4m long.", 
-   "$kref"         : "#/ckan/github/ColorCurves/CargoBays", 
-   "license"       : "CC-BY-SA-3.0", 
-   "author"        : [ 
-       "Bezzier", "DaMichel" 
-   ], 
-   "ksp_version_min"   : "1.0.5", 
-   "ksp_version_max"   : "1.1", 
-   "resources": { 
-       "homepage"  : "http://colorcurves.github.io/CargoBays/" 
-   }, 
-   "install" : [ 
-       { 
-           "find" : "DMTanks", 
-           "install_to" : "GameData" 
-       } 
-   ] 
-} 
+spec_version: v1.4
+identifier: DMTanks-CargoBays
+author:
+  - Bezzier
+  - DaMichel
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/2339'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA-3.0
+resources:
+  remote-avc: https://raw.githubusercontent.com/zer0Kerbal/CargoBays/master/CargoBays.version
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: DMTanks-AeroRTG
+  - name: DMTanks-SphericalTanks
+  - name: DMTanks-Fuselage
+suggests:
+  - name: SimpleConstruction
+  - name: NotSoSimpleConstruction
+  - name: SimpleLogistics
+supports:
+  - name: TweakScale
+  - name: KerbalChangelog
+install:
+  - find: DaMichel
+    install_to: GameData

@@ -1,16 +1,8 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "TrackingStationAmbientlight",
-    "$kref"        : "#/ckan/spacedock/895",
-    "$vref" : "#/ckan/ksp-avc",
-    "license" : "GPL-3.0",
-    "install" : [
-        {
-            "file"          : "GameData/TrackingStationAmbientlight",
-            "install_to"    : "GameData"
-        }
-    ],
-    "resources" : {
-        "bugtracker" : "https://github.com/mhoram-kerbin/TrackingStationAmbientlight/issues"
-    }
-}
+spec_version: v1.4
+identifier: TrackingStationAmbientlight
+$kref: '#/ckan/spacedock/895'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - plugin
+  - graphics

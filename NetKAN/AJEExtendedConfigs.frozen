@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AJEExtendedConfigs",
+    "$kref":        "#/ckan/github/seanyoung247/AJEExtended",
+    "x_netkan_epoch":   2,
+    "x_netkan_force_v": true,
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169520-*"
+    },
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "install": [ {
+        "find":       "AJEExtended",
+        "install_to": "GameData",
+        "filter":     [ ".git" ]
+    } ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "AdvancedJetEngine" }
+    ]
+}

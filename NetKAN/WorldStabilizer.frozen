@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "WorldStabilizer",
+    "$kref":        "#/ckan/spacedock/1632",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "suggests": [
+        { "name": "KSP-AVC" }
+    ]
+}

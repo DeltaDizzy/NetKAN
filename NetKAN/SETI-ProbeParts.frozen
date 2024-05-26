@@ -1,0 +1,20 @@
+{
+    "spec_version"  : "v1.2",
+    "identifier"    : "SETI-ProbeParts",
+    "$kref"         : "#/ckan/spacedock/848",
+    "$vref"         : "#/ckan/ksp-avc",
+    "license"       : "restricted",
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "depends" : [
+        { "name": "ModuleManager" }
+    ],
+    "install" : [
+        {
+          "file"       : "SETIprobeParts",
+          "install_to" : "GameData"
+        }
+    ]
+}

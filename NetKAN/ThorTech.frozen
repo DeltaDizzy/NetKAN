@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ThorTech",
+    "$kref":        "#/ckan/spacedock/1620",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "B9PartSwitch"          },
+        { "name": "CommunityResourcePack" },
+        { "name": "DeepSkyCore"           }
+    ],
+    "install": [ {
+        "find":       "ThorTech",
+        "install_to": "GameData/DeepSky"
+    } ]
+}

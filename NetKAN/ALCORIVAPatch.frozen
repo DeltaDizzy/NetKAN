@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ALCORIVAPatch",
+    "$kref":        "#/ckan/spacedock/1205",
+    "license":      "CC-BY-NC-SA-3.0",
+    "tags": [
+        "config",
+        "crewed"
+    ],
+    "install": [ {
+        "find":       "ASET",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ASETAgency" },
+        { "name": "ALCOR" },
+        { "name": "ModuleManager" },
+        { "name": "RasterPropMonitor-Core", "min_version": "0.28.0" },
+        { "name": "ASETProps" , "min_version": "1.4" }
+    ],
+    "recommends": [
+        { "name": "MechJeb2" },
+        { "name": "SCANsat" },
+        { "name": "VesselView" },
+        { "name": "DockingPortAlignmentIndicator" },
+        { "name": "Astrogator" }
+    ]
+}

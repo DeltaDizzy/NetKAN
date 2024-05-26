@@ -1,0 +1,19 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "ProceduralDynamics",
+    "$kref"        : "#/ckan/github/Crzyrndm/ProceduralWings",
+    "$vref"        : "#/ckan/ksp-avc",
+    "name"         : "Procedural Wings",
+    "abstract"     : "Procedural wing (pWing for short) is a wing piece that the user can procedurally manipulate.",
+    "license"      : "restricted",
+    "resources"    : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/117236-*"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

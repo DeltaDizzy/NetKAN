@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KSPArtemisSuit",
+    "$kref":        "#/ckan/spacedock/2517",
+    "license":      "GPL-3.0",
+    "tags": [
+        "suits",
+        "graphics",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "BreakingGround-DLC" }
+    ],
+    "install": [ {
+        "find":       "Artemis_Suit",
+        "install_to": "GameData/Squad"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1.10.1",
+        "override": {
+            "ksp_version_min": "1.10.1"
+        }
+    } ]
+}

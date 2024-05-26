@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MinAmbLightUpd",
+    "$kref":        "#/ckan/spacedock/2279",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-2-clause",
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "install": [ {
+        "find":       "MinimumAmbientLightingUpdated",
+        "install_to": "GameData"
+    } ]
+}

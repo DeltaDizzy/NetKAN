@@ -1,15 +1,33 @@
 {
     "spec_version" : 1,
     "identifier"   : "DMagicScienceAnimate",
-    "$kref"        : "#/ckan/github/DMagic1/DMModuleScienceAnimateGeneric",
     "name"         : "DMModuleScienceAnimateGeneric",
     "abstract"     : "A replacement for ModuleScienceExperiment and ModuleAnimateGeneric",
+    "$kref"        : "#/ckan/github/DMagic1/DMModuleScienceAnimateGeneric",
+    "ksp_version_min": "1.8",
     "license"      : "BSD-2-clause",
-    "ksp_version"   : "1.3",
-    "install": [
-        {
-                "file": "GameData/DMagicScienceAnimate",
-            "install_to": "GameData"
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/65734-*"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "science"
+    ],
+    "install": [ {
+        "file":       "GameData/DMagicScienceAnimate",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "v0.20",
+        "override": {
+            "ksp_version_min": "1.4",
+            "ksp_version_max": "1.5"
         }
-    ]
+    }, {
+        "version": "v0.21",
+        "override": {
+            "ksp_version_max": "1.7"
+        }
+    } ]
 }

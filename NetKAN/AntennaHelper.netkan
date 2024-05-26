@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AntennaHelper",
+    "abstract":     "Visual Antenna Helper",
+    "author":       "linuxgurugamer",
+    "$kref":        "#/ckan/github/linuxgurugamer/Antenna-Helper",
+    "$vref":        "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188294-*"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "comms"
+    ],
+    "install": [ {
+        "install_to": "GameData",
+        "find": "AntennaHelper"
+    } ],
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
+    ]
+}

@@ -1,22 +1,24 @@
-{
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "ASET"
-    }
-  ],
-  "depends": [
-    { "name": "ASETAgency" },
-    { "name": "ModuleManager" },
-    { "name": "ASETProps",  "min_version" : "1.4" },
-    { "name": "RasterPropMonitor-Core", "min_version" : "0.28.0" }
-  ],
-  "recommends": [
-     { "name": "FAR" , "min_version": "0.15.7.2" }
-  ],
-  "$kref": "#/ckan/spacedock/1213",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ASETAvionics",
-  "license": "CC-BY-NC-SA-3.0"
-}
+spec_version: v1.4
+identifier: ASETAvionics
+author:
+  - alexustas
+  - StoneBlue
+  - JonnyOThan
+$kref: '#/ckan/spacedock/3239'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - config
+  - library
+  - crewed
+  - first-person
+install:
+  - find: ASET
+    install_to: GameData
+depends:
+  - name: ModuleManager
+  - name: ASETAgency
+  - name: ASETProps
+    min_version: '2.0.0'
+  - name: RasterPropMonitor-Core
+    min_version: 1:v0.30.2

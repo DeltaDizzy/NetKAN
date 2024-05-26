@@ -1,39 +1,9 @@
-{
-    "spec_version"    : "v1.12",
-    "$kref"           : "#/ckan/github/KSP-RO/RealSolarSystem",
-    "$vref"           : "#/ckan/ksp-avc",
-    "x_netkan_force_v": true,
-    "name"            : "Real Solar System",
-    "identifier"      : "RealSolarSystem",
-    "abstract"        : "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
-    "license"         : "CC-BY-NC-SA",
-    "release_status"  : "stable",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145"
-    },
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "Kopernicus", "min_version": "1:beta-05-2" },
-        { "name": "RSSTextures" }
-    ],
-    "provides": [ "CustomAsteroids-Pops" ],
-    "recommends": [
-        { "name": "RealismOverhaul" },
-        { "name": "KSCSwitcher" },
-        { "name": "RSSDateTimeFormatter" }
-    ],
-    "install": [
-        {
-            "find"      : "RealSolarSystem",
-            "install_to": "GameData"
-        }
-    ],
-    "x_netkan_override" : [
-        {
-            "version" : "v11.0.0",
-            "override" : {
-                "ksp_version" : "1.1"
-            }
-        }
-    ]
-}
+spec_version: v1.12
+identifier: RealSolarSystem
+$kref: '#/ckan/netkan/https://github.com/KSP-RO/RealSolarSystem/raw/master/RealSolarSystem.netkan'
+x_netkan_license_ok: true
+tags:
+  - planet-pack
+  - config
+  - plugin
+  - resources

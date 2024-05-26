@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "FillitUp",
+    "$kref":        "#/ckan/spacedock/2051",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
+    "install": [ {
+        "find": "FillItUp",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" },
+        { "name" : "ButtonManager" }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "AutoAsparagus",
+    "$kref"          : "#/ckan/spacedock/281",
+    "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_epoch": "1",
+    "license"        : "Apache-2.0",
+    "depends": [
+       { "name":"ToolbarController" },
+       { "name":"ClickThroughBlocker" }
+    ],
+    "tags": [
+        "plugin",
+        "convenience",
+        "editor"
+    ],
+    "recommends" : [
+        { "name" : "SmartStage" }
+    ]
+}

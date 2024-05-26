@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.26",
+    "identifier":   "PoodsMilkyWaySkybox",
+    "name":         "Pood's Milky Way Skybox",
+    "abstract":     "Skybox based on the famous Milky Way images taken by NASA presenting you with the classic night sky that we all know and love.",
+    "author":       "Poodmund",
+    "$kref":        "#/ckan/spacedock/926",
+    "ksp_version":  "any",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "Skybox"
+    ],
+    "install": [
+        {
+            "file": "GameData/PoodsSkyboxes",
+            "install_to": "GameData"
+        }
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        {
+            "any_of": [
+                { "name": "TextureReplacer" },
+                { "name": "TextureReplacerReplaced" },
+                { "name": "SigmaReplacements-Skybox" },
+                { "name": "DiRT" }
+            ]
+        }
+    ],
+    "suggests": [
+        { "name": "DistantObject" }
+    ]
+}

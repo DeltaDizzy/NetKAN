@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ControlSurfaceToggle",
+    "$kref": "#/ckan/spacedock/1499",
+    "license": "MIT",
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

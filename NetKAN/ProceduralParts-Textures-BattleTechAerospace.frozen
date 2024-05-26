@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ProceduralParts-Textures-BattleTechAerospace",
+    "$kref":        "#/ckan/spacedock/607",
+    "license":      "restricted",
+    "tags": [
+        "graphics"
+    ],
+    "depends": [
+        { "name": "ProceduralParts" }
+    ],
+    "install": [ {
+        "file"       : "BTAProceduralPartsTextures",
+        "install_to" : "GameData"
+    } ]
+}

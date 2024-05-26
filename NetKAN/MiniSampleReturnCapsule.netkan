@@ -1,13 +1,9 @@
-{
-    "identifier": "MiniSampleReturnCapsule",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/831",
-    "license" : "restricted",
-    "install": [
-        {
-            "find"       : "SampleReturnCapsule",
-            "install_to" : "GameData"
-        }
-     ]
-
-}
+identifier: MiniSampleReturnCapsule
+spec_version: v1.4
+$kref: '#/ckan/spacedock/831'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager

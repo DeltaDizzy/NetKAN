@@ -1,13 +1,14 @@
-{
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData/ASET",
-      "find": "ASET/Agencies"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1216",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "ASETAgency",
-  "license": "CC-BY-NC-SA-3.0"
-}
+spec_version: v1.4
+identifier: ASETAgency
+author:
+  - alexustas
+  - StoneBlue
+$kref: '#/ckan/spacedock/3248'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-3.0
+tags:
+  - agency
+  - library
+install:
+  - find: ASET
+    install_to: GameData

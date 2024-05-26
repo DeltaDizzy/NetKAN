@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TelemachusContinued",
+    "$kref":        "#/ckan/spacedock/1771",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "app",
+        "information"
+    ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "RasterPropMonitor" }
+    ],
+    "recommends": [
+        { "name": "HullcamVDSContinued" }
+    ]
+}

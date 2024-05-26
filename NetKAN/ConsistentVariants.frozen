@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ConsistentVariants",
+    "abstract":     "Fixes inconsistent variant naming system and automatically applies variants as you place parts",
+    "$kref":        "#/ckan/github/severedsolo/ConsistentVariants",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "editor",
+        "convenience"
+    ],
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/179537-*"
+    },
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "ConsistentVariants",
+        "install_to": "GameData"
+    } ]
+}

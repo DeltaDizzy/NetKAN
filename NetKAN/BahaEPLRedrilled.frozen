@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BahaEPLRedrilled",
+    "$kref":        "#/ckan/spacedock/1708",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "parts",
+        "resources"
+    ],
+    "install": [ {
+        "find": "BahaEPL",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "USIKolClassSuitsRedux",
+    "name":         "USI Kolonization Class Suits Redux",
+    "$kref":        "#/ckan/spacedock/2035",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "suits",
+        "graphics",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "TextureReplacer",
+        "install_to": "GameData/USIKolClassSuitsRedux"
+    } ]
+}

@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "OasisSystem",
+    "$kref":        "#/ckan/spacedock/1814",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "install": [ {
+        "find":       "Oasis System",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Multiports",
+    "$kref":        "#/ckan/spacedock/360",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find"       : "Multiports",
+        "install_to" : "GameData"
+    } ]
+}

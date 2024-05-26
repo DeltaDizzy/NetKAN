@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "OSEWorkShopReworked",
+    "$vref":        "#/ckan/ksp-avc",
+    "$kref":        "#/ckan/spacedock/2086",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
+        "find": "Workshop",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager" },
+        { "name": "KIS" },
+        { "name" : "ClickThroughBlocker" },
+        { "name": "ToolbarController"   },
+        { "name": "SpaceTuxLibrary" },
+        { "name": "FirespitterCore" }
+    ],
+    "conflicts": [
+        { "name": "Workshop" },
+        { "name": "OSEWorkShopCont" }
+    ]
+}

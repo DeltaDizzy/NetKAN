@@ -1,20 +1,27 @@
 {
     "spec_version"  : "v1.4",
     "identifier"    : "MissionController2",
+    "name"          : "Mission Controller 2",
+    "abstract"      : "Mission Controller 2 Adds New Economy Adjustments and Contracts to Kerbal Space Program.",
+    "author"        : "Malkuth74",
     "$kref"         : "#/ckan/github/malkuth1974/MissionController2",
-    "$vref"         : "#/ckan/ksp-avc",
+    "$vref"         : "#/ckan/ksp-avc/MissionController.*\\.version",
     "license"       : "GPL-3.0",
-    "name": "Mission Controller 2",
-    "abstract": "Mission Controller 2 Adds New Economy Adjustments and Contracts to Kerbal Space Program.",
-    "author": "Malkuth74",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/43645-Mission-Controller-2-Preview-Version-3-(KSP-24-2)-(New-Agena-Mini-Story)",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/40183-*",
         "repository": "https://github.com/malkuth1974/MissionController2"
     },
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "install": [
         {
-            "find" : "MissionControllerEC",
-            "install_to" : "GameData"
+            "find":       "MissionController",
+            "install_to": "GameData"
         }
     ],
     "x_netkan_override": [

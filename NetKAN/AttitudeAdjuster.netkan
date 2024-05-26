@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "AttitudeAdjuster",
+    "$kref":        "#/ckan/spacedock/2031",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "AttitudeAdjuster",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1.2",
+        "override": {
+            "ksp_version_min": "1.8"
+        }
+    } ]
+}

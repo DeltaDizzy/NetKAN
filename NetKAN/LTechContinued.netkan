@@ -1,8 +1,20 @@
 {
     "spec_version": "v1.4",
     "identifier": "LTechContinued",
-    "$kref": "#/ckan/netkan/https://raw.githubusercontent.com/Olympic1/L-Tech/master/LTechContinued.netkan",
-    "x_netkan_license_ok": true,
+    "$kref":        "#/ckan/spacedock/227",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "parts",
+        "science"
+    ],
+    "depends": [
+        { "name" : "ModuleManager"       },
+        { "name" : "ToolbarController"   },
+        { "name" : "SpaceTuxLibrary"     },
+        { "name" : "ClickThroughBlocker" }
+    ],
     "x_netkan_override": [
         {
             "version": "v4.1",
@@ -10,5 +22,10 @@
                 "conflicts": [ { "name": "KEI" } ]
             }
         }
-    ]
+    ],
+    "install": [ {
+        "find": "LTech",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_epoch": 1
 }

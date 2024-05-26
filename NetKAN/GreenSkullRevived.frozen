@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "GreenSkullRevived",
+    "$kref":        "#/ckan/spacedock/2317",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "graphics",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager"   },
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "TextureReplacer",
+        "install_to": "GameData/GreenSkullRevived"
+    } ]
+}

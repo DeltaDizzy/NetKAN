@@ -1,13 +1,12 @@
-{
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "StreamlineEnginesTanks"
-    }
-  ],
-  "$kref": "#/ckan/spacedock/1503",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "StreamlineEnginesRCSsandfueltanks",
-  "license": "MIT"
-}
+spec_version: v1.4
+identifier: StreamlineEnginesRCSsandfueltanks
+$kref: '#/ckan/spacedock/1503'
+comment: Version file has a syntax error
+license: MIT
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: StreamlineEnginesTanks
+    install_to: GameData

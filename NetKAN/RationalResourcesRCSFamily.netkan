@@ -1,0 +1,18 @@
+spec_version: v1.26
+identifier: RationalResourcesRCSFamily
+name: Rational Resources RCS Family
+abstract: Enables fuel switching in supported MonoPropellant or LFO RCS
+$kref: '#/ckan/spacedock/2201'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+tags:
+  - config
+  - convenience
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - any_of:
+      - name: ClassicStockResources
+      - name: CommunityResourcePack
+conflicts:
+  - name: KiwiTechTree

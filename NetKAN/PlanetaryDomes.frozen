@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "identifier":   "PlanetaryDomes",
+    "$kref":        "#/ckan/spacedock/958",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/148678-*"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

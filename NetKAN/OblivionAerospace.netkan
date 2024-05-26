@@ -1,31 +1,15 @@
-{
-    "spec_version"   : 1,
-    "identifier"     : "OblivionAerospace",
-    "$kref"          : "#/ckan/github/LostOblivion/OblivionAerospace",
-    "name"           : "Oblivion Aerospace",
-    "abstract"       : "A small parts package of heat shields for Kerbal Space Program.",
-    "license"        : "CC-BY-SA-4.0",
-    "ksp_version_min": "0.25",
-    "ksp_version_max": "1.0.99",
-    "resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/91920",
-        "repository"   : "https://github.com/LostOblivion/OblivionAerospace"
-    },
-    "install" : [
-        {
-            "file"          : "OblivionAerospace/GameData/OblivionAerospace",
-            "install_to"    : "GameData",
-            "filter_regexp" : "ModuleManager.*dll$"
-        },
-        {
-            "file"       : "OblivionAerospace/Ships/VAB",
-            "install_to" : "Ships"
-        }
-    ],
-    "depends" : [
-        { "name" : "ModuleManager" }
-    ],
-    "recommends" : [
-        { "name" : "DeadlyReentry" }
-    ]
-}
+spec_version: v1.18
+identifier: OblivionAerospace
+author:
+  - LostOblivion
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/3002'
+$vref: '#/ckan/ksp-avc'
+x_netkan_force_v: true
+license: CC-BY-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+recommends:
+  - name: DeadlyReentry

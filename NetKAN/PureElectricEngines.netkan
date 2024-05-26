@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PureElectricEngines",
+    "$kref":        "#/ckan/spacedock/1998",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "JDSA",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1:1.10.2",
+        "override": {
+            "ksp_version_min": "1.10.1"
+        }
+    } ]
+}

@@ -1,0 +1,20 @@
+spec_version: v1.26
+identifier: CanaveralPads
+name: CanaveralPads
+abstract: Custom Launch sites for Cape Canaveral in RSS
+$kref: '#/ckan/github/KSP-RO/CanaveralPads'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+resources:
+  homepage: https://github.com/KSP-RO/CanaveralPads/tree/main/GameData/CanaveralPads
+  remote-avc: https://github.com/KSP-RO/CanaveralPads/raw/main/GameData/CanaveralPads/CanaveralPads.version
+tags:
+  - graphics
+depends:
+  - name: RSS-CanaveralHD
+  - name: KerbalKonstructs
+    suppress_recommendations: true
+  - name: StockalikeStructures
+    suppress_recommendations: true
+  - name: TundraSpaceCenter
+    suppress_recommendations: true

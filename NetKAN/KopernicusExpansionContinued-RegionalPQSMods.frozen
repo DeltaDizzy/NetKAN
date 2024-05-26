@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KopernicusExpansionContinued-RegionalPQSMods",
+    "name":         "Kopernicus Expansion Continued - Regional PQSMods",
+    "author":       [ "MrHappyFace", "StollD" ],
+    "$kref":        "#/ckan/github/StollD/KopernicusExpansion-Continued/asset_match/RegionalPQSMods",
+    "ksp_version":  "1.7",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119211-*"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "install": [ {
+        "find":       "KopernicusExpansion",
+        "install_to": "GameData"
+    } ],
+    "depends":  [
+        { "name" : "Kopernicus" }
+    ]
+}

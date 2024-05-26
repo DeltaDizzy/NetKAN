@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "identifier":   "KustomKerbals",
+    "$kref":        "#/ckan/github/malkuth1974/KustomKerbals",
+    "ksp_version":  "1.4",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "crewed"
+    ],
+    "install": [ {
+        "file"       : "KustomKerbals",
+        "install_to" : "GameData",
+        "filter"     : ".DS_Store"
+    } ]
+}

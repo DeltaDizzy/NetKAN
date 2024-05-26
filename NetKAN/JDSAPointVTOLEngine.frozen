@@ -1,0 +1,9 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "JDSAPointVTOLEngine",
+    "$kref":        "#/ckan/spacedock/1696",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ]
+}

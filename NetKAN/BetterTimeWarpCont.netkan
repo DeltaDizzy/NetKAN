@@ -1,14 +1,26 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "BetterTimeWarp"
-    }
-  ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1162",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "BetterTimeWarpCont",
-  "license": "GPL-3.0"
+    "spec_version": "v1.4",
+    "identifier":   "BetterTimeWarpCont",
+    "name":         "BetterTimeWarpContinued",
+    "abstract":     "Improved time warping",
+    "$kref":        "#/ckan/github/linuxgurugamer/BetterTimeWarpContinued",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage":     "http://forum.kerbalspaceprogram.com/index.php?/topic/154935-*",
+        "spacedock":    "https://spacedock.info/mod/1162/BetterTimeWarpContinued",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/BetterTimeWarpContinued/BetterTimeWarpContinued-1488337554.886011.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ClickThroughBlocker" },
+        { "name": "ToolbarController"   }
+    ],
+    "install": [ {
+        "find":       "BetterTimeWarp",
+        "install_to": "GameData"
+    } ]
 }

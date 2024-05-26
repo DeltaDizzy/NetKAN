@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "LCDLaunchCountDown",
+    "$kref":        "#/ckan/spacedock/791",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience",
+        "sound"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "LaunchCountDown",
+        "install_to": "GameData"
+    } ]
+}

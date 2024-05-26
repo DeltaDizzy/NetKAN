@@ -1,18 +1,18 @@
 {
     "spec_version" : 1,
-    "name"         : "Zero MiniAVC",
     "identifier"   : "ZeroMiniAVC",
+    "name"         : "Zero MiniAVC",
     "abstract"     : "Delete/Prune/Disable all MiniAVC",
-    "$kref"        : "#/ckan/github/malahx/ZeroMiniAVC",
+    "author"       : [ "malah", "linuxgurugamer" ],
+    "$kref"        : "#/ckan/spacedock/1614",
     "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_epoch": "1",
     "license"      : "GPL-3.0",
-    "author"       : "malah",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1"
-    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "suggests"     : [
-        {
-            "name": "KSP-AVC"
-        }
-   ]
+        { "name": "KSP-AVC" }
+    ]
 }

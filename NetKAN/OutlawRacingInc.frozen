@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "OutlawRacingInc",
+    "$kref":        "#/ckan/spacedock/1617",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "ORinc",
+        "install_to": "GameData"
+    }, {
+        "find":       "ORI.version",
+        "install_to": "GameData/ORinc",
+        "find_matches_files": true
+    } ]
+}

@@ -1,0 +1,11 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ScienceFunding",
+    "$kref":        "#/ckan/spacedock/554",
+    "license":      "public-domain",
+    "tags": [
+        "plugin",
+        "science",
+        "career"
+    ]
+}

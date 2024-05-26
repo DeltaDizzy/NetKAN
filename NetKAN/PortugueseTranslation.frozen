@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PortugueseTranslation",
+    "$kref":        "#/ckan/spacedock/1016",
+    "license":      "MIT",
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find":"PTBR",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "ManeuverD",
+    "name":         "ManeuverD",
+    "abstract":     "Fix a precision problem with maneuver node math",
+    "author":       "Sarbian",
+    "$kref":        "#/ckan/jenkins/https://ksp.sarbian.com/jenkins/job/ManeuverD/",
+    "x_netkan_jenkins": {
+        "use_filename_version": true
+    },
+    "x_netkan_version_edit": "^ManeuverD-(?<version>\\d+\\.\\d+\\.\\d+\\.\\d+)\\.zip$",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.3",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "https://github.com/sarbian/ManeuverD",
+        "repository": "https://github.com/sarbian/ManeuverD"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "provides": [ "Harmony1" ],
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Bundles Harmony. Please check the DLL's version, and if it's 2 or later, remove the provides and add a depends on Harmony2.",
+    "install": [
+        {
+            "find": "ManeuverD",
+            "install_to": "GameData"
+        }
+    ]
+}

@@ -1,30 +1,49 @@
-{
-    "spec_version": "v1.4",
-    "identifier": "SimpleConstruction",
-    "$kref": "#/ckan/spacedock/59",
-    "license": "MIT",
-    "x_netkan_version_edit": {
-        "find": "[Version_]?",
-        "replace": "",
-        "strict": false
-    },
-    "x_netkan_epoch": 1,
-    "depends": [
-        { "name": "ModuleManager" },
-        { "name": "InterstellarFuelSwitch-Core" }
-    ],
-    "conflicts": [
-        { "name": "ExtraPlanetaryLaunchpads" }
-    ],
-    "provides"  : [ "ExtraPlanetaryLaunchpads" ],
-    "install" : [
-        {
-            "find": "SimpleConstruction",
-            "install_to": "GameData"
-        },
-        {
-            "find": "ExtraplanetaryLaunchpads",
-            "install_to": "GameData"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: SimpleConstruction
+$kref: '#/ckan/spacedock/59'
+$vref: '#/ckan/ksp-avc/SimpleConstruction.version'
+x_netkan_version_edit:
+  find: '[Version_]?'
+  replace: ''
+  strict: false
+x_netkan_epoch: 1
+license: GPL-3.0
+tags:
+  - plugin
+  - resources
+depends:
+  - name: ModuleManager
+recommends:
+  - name: KerbalStats
+  - name: Toolbar
+suggests:
+  - name: KeridianDynamicsVesselAssembly
+  - name: GPOSpeedPump
+  - name: NotSoSimpleConstruction
+  - name: OnDemandFuelCells
+  - name: SimpleLogistics
+  - name: StockalikeMiningExtension
+  - name: ISRUThanksButNoTanks
+  - name: KerbalJointReinforcementNext
+supports:
+  - name: B9PartSwitch
+  - name: CommunityCategoryKit
+  - name: CommunityResourcePack
+  - name: InterstellarFuelSwitch
+  - name: KAS
+  - name: Kerbalism
+  - name: KerbalPlanetaryBaseSystems
+  - name: Kethane
+  - name: KIS
+  - name: StationPartsExpansionRedux
+  - name: TweakScale
+  - name: USI-FTT
+conflicts:
+  - name: ExtraPlanetaryLaunchpads
+provides:
+  - ExtraPlanetaryLaunchpads
+install:
+  - find: SimpleConstruction
+    install_to: GameData
+  - find: ExtraplanetaryLaunchpads
+    install_to: GameData

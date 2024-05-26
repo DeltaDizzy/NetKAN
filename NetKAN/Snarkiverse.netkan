@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Snarkiverse",
+    "$kref":        "#/ckan/spacedock/1857",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus"    }
+    ],
+    "supports": [
+        { "name": "OuterPlanetsMod" }
+    ],
+    "x_netkan_override": [ {
+        "version": "1.2",
+        "override": {
+            "ksp_version_min": "1.5.1"
+        }
+    } ]
+}

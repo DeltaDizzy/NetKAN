@@ -1,20 +1,20 @@
-{
-	"spec_version" : "v1.10",
-	"identifier"   : "ISRUThanksButNoTanks",
-	"$kref"        : "#/ckan/github/QuickBASIC/ISRUThanksButNoTanks",
-	"name"         : "ISRU Thanks But No Tanks",
-	"author"       : "QuickBASIC",
-	"abstract"     : "ModuleManager Script to allow mining and converting Ore without storage tanks. It does this by adding a small amount of Ore storage to all ISRUs. Supports Stockalike Mining Extension by SuicidalInsanity",
-	"license"      : "MIT",
-	"$vref" : "#/ckan/ksp-avc",
-	"install": [
-		{
-			"install_to": "GameData",
-			"find_regexp": "ISRUThanksButNoTanks.*"
-		}
-	],
-	"resources": 
-	{
-		"homepage": "https://github.com/QuickBASIC/ISRUThanksButNoTanks"
-	}
-}
+spec_version: v1.10
+identifier: ISRUThanksButNoTanks
+name: ISRU Thanks But No Tanks
+$kref: '#/ckan/github/zer0Kerbal/ISRUThanksButNoTanks'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: 1
+license: MIT
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204750-*
+tags:
+  - config
+  - resources
+depends:
+  - name: ModuleManager
+recommends:
+  - name: KerbalChangelog
+  - name: StockalikeMiningExtension
+install:
+  - find: ISRUThanksButNoTanks
+    install_to: GameData/QuickBASIC

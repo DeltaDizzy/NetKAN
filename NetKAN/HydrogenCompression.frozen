@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "HydrogenCompression",
+    "$kref":        "#/ckan/spacedock/1299",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "resources"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "CryoEngines" },
+        { "name": "TACLS" }
+    ]
+}

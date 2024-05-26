@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "TRAILSPlus",
+    "$kref":        "#/ckan/spacedock/2277",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "manual":   "https://github.com/TedThompson/T.R.A.I.L.S./wiki"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "BluedogDB"     },
+        { "name": "EVAParachutes" }
+    ]
+}

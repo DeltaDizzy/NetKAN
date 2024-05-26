@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: CommunityPartsTitles
+author: flart
+$kref: '#/ckan/github/yalov/CommunityPartsTitles'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+tags:
+  - config
+  - convenience
+  - editor
+install:
+  - file: GameData/002_CommunityPartsTitles
+    install_to: GameData
+    filter: Extras
+    comment: >-
+      Exclude Extras/ folder. There are CommunityPartsTitlesExtrasCategory and
+      CommunityPartsTitlesExtrasNoCCKDup for it

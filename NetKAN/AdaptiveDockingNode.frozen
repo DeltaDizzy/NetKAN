@@ -1,0 +1,25 @@
+{
+    "spec_version": 1,
+    "identifier":   "AdaptiveDockingNode",
+    "name":         "AdaptiveDockingNode",
+    "abstract":     "A creator-targeted plugin that facilitates multi-sized docking ports",
+    "author":       "toadicus",
+    "$kref":        "#/ckan/http/http://ksp.hawkbats.com/AdaptiveDockingNode/AdaptiveDockingNode-1-7.zip",
+    "version":      "1.7",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.2",
+    "license":      "BSD-2-clause",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/71673-*"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager", "min_version": "2.6.3" }
+    ],
+    "install": [ {
+        "file": "GameData/AdaptiveDockingNode",
+        "install_to": "GameData"
+    } ]
+}

@@ -1,37 +1,48 @@
 {
-    "spec_version"      : "v1.4",
-    "identifier"        : "KSPInterstellarExtended",
-    "$kref"             : "#/ckan/spacedock/172",
-    "comment"           : "$vref           : #/ckan/ksp-avc",
-    "x_netkan_staging"  : true,
-    "comment"           : "return vref when .version file is valid",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155255-12213-kspi-extended",
-        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended"
-    },
-    "license"            : "GPL-3.0",
-    "install" : [
+    "spec_version": "v1.4",
+    "identifier": "KSPInterstellarExtended",
+    "$kref": "#/ckan/spacedock/172",
+    "$vref": "#/ckan/ksp-avc",
+    "x_netkan_allow_out_of_order": true,
+    "license": "unknown",
+    "tags": [
+        "plugin",
+        "parts",
+        "resources",
+        "graphics",
+        "crewed",
+        "sound"
+    ],
+    "install": [
         {
-            "find"      : "GameData/WarpPlugin",
+            "find":       "GameData/WarpPlugin",
             "install_to": "GameData"
         }
     ],
-    "depends" : [
-        { "name"        : "CommunityResourcePack", "min_version" : "0.7.1" },
-        { "name"        : "CommunityTechTree", "min_version" : "1:3.2.0" },
-        { "name"        : "InterstellarFuelSwitch-Core", "min_version" : "2.9.5" },
-        { "name"        : "TweakScale", "min_version" : "2.3.3"},
-        { "name"        : "ModuleManager", "min_version" : "2.8.1" },
-        { "name"        : "HeatControl"}
+    "depends": [
+        { "name": "InterstellarRedistributable" },
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "TweakScale" },
+        { "name": "ModuleManager" },
+        { "name": "CommunityResourcePack" },
+        { "name": "CommunityTechTree" }
     ],
     "recommends": [
-        { "name"        : "PatchManager", "min_version" : "0.0.10" },
-        { "name"        : "UniversalStorage", "min_version" : "1.2.2" },
-        { "name"        : "InterstellarFuelSwitch", "min_version" : "2.9.5"},
-        { "name"        : "FilterExtensions", "min_version" : "3.0.0"},
-        { "name"        : "HideEmptyTechNodes", "min_version" : "0.8.0" },
-        { "name"        : "KerbalJointReinforcement" },
-        { "name"        : "UniversalStorage" },
-        { "name"        : "PersistentRotation" }        
+        { "name": "PatchManager" },
+        { "name": "InterstellarFuelSwitch" },
+        { "name": "InterstellarTechnologies" },
+        { "name": "PersistentRotation" },
+        { "name": "FilterExtensions" },
+        { "name": "PhotonSailor" },
+        { "name": "HideEmptyTechNodes" },
+        { "name": "B9PartSwitch" },
+        { "name": "ImprovedTreeEnginePlacement" }
+    ],
+    "suggests": [
+        { "name": "HeatControl" },
+        { "name": "BetterBurnTime" },
+        { "name": "TexturesUnlimited" },
+        { "name": "UniversalStorage" },
+        { "name": "KerbalJointReinforcement" }
     ]
 }

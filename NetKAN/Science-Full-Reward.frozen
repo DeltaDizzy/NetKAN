@@ -1,0 +1,23 @@
+{
+    "spec_version"     : 1,
+    "identifier"       : "Science-Full-Reward",
+    "name"             : "Science - Full Reward! (Continued)",
+    "$kref"            : "#/ckan/github/tekaohksp/Science-Full-Reward",
+    "ksp_version"      : "any",
+    "license"          : "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185199-*"
+    },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "xScienceContinued" },
+        { "name": "Science-Full-Transmit" },
+        { "name": "ContractConfigurator-FieldResearch" }
+    ]
+}

@@ -1,0 +1,31 @@
+spec_version: v1.4
+identifier: InfernalRoboticsNext
+name: Infernal Robotics - Next
+abstract: Robotic parts for your constructions
+author:
+  - Rudolf Meier
+  - ZodiusInfuser
+  - Ziw
+  - sirkut
+$kref: '#/ckan/github/meirumeiru/InfernalRobotics'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+release_status: stable
+tags:
+  - parts
+  - plugin
+conflicts:
+  - name: InfernalRobotics
+depends:
+  - name: ModuleManager
+  - name: IR-ConnectionSystem
+recommends:
+  - name: KerbalJointReinforcementNext
+  - name: CameraControllerNext
+install:
+  - file: GameData/MagicSmokeIndustries
+    install_to: GameData
+x_netkan_override:
+  - version: v3.0.0
+    override:
+      ksp_version_max: 1.7.0

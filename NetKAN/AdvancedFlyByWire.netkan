@@ -1,45 +1,42 @@
 {
     "spec_version": 1,
-    "$kref"    : "#/ckan/spacedock/192",
-    "$vref"    : "#/ckan/ksp-avc",
-    "name"     : "Advanced Fly-By-Wire (Windows, x64)",
-    "abstract" : "Joystick & controller mod with multiple presets and in-flight controls binding!",
-    "identifier": "AdvancedFlyByWire",
-    "release_status" : "stable",
-    "resources" : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/index.php?/topic/85711-105-afbw-v162-joystick-controller-mod/",
-        "repository" : "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire"
-    },
-    "install" : [
-        {
-            "file"       : "SDL2.dll",
-            "install_to" : "GameRoot"
-        },
-        {
-            "file"       : "SDL_LICENSE",
-            "install_to" : "GameRoot"
-        },
-        {
-            "file"       : "XINPUTDOTNET_LICENSE",
-            "install_to" : "GameRoot"
-        },
-        {
-            "file"       : "XInputInterface.dll",
-            "install_to" : "GameRoot"
-        },
-        {
-            "file"       : "GameData/ksp-advanced-flybywire",
-            "install_to" : "GameData"
-        }
+    "identifier":   "AdvancedFlyByWire",
+    "name":         "Advanced Fly-By-Wire (Windows)",
+    "$kref":        "#/ckan/spacedock/1869",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "release_status": "stable",
+    "tags": [
+        "plugin",
+        "control"
     ],
-    "depends" : [
-        { "name" : "Toolbar" }
+    "install": [ {
+        "file":       "SDL2.dll",
+        "install_to": "GameRoot"
+    }, {
+        "file":       "SDL_LICENSE",
+        "install_to": "GameRoot"
+    }, {
+        "file":       "XINPUTDOTNET_LICENSE",
+        "install_to": "GameRoot"
+    }, {
+        "file":       "XInputInterface.dll",
+        "install_to": "GameRoot"
+    }, {
+        "file":       "GameData/ksp-advanced-flybywire",
+        "install_to": "GameData"
+    } ],
+    "provides": [
+        "AdvancedFlyByWireRevived"
     ],
-    "recommends" : [
-        { "name" : "KSP-AVC" }
+    "conflicts": [
+        { "name": "AdvancedFlyByWireRevived" }
     ],
-    "conflicts" : [
-        { "name" : "AdvancedFlyByWire-Linux" }
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
     ],
-    "x_netkan_license_ok" : true
+    "recommends": [
+        { "name": "KSP-AVC" }
+    ]
 }

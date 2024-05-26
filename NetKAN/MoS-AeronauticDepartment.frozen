@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MoS-AeronauticDepartment",
+    "$kref":        "#/ckan/spacedock/1289",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "MoS",
+        "install_to": "GameData"
+    } ]
+}

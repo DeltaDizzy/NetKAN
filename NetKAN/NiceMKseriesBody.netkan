@@ -3,11 +3,15 @@
     "identifier":   "NiceMKseriesBody",
     "$kref":        "#/ckan/spacedock/1644",
     "license":      "CC-BY-SA",
-    "x_via":        "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts",
+        "crewed",
+        "combat"
+    ],
     "install": [ {
         "find":       "NMB",
         "install_to": "GameData"
-    }],
+    } ],
     "recommends": [
         { "name": "RasterPropMonitor"        },
         { "name": "BDArmoryContinued"        },

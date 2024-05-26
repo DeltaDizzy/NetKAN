@@ -1,43 +1,32 @@
 {
-    "spec_version": 1,
-    "$kref": "#/ckan/spacedock/533",
-    "identifier": "Kerbalism",
-    "license": "public-domain",
+    "spec_version": "v1.18",
+    "identifier":   "Kerbalism",
+    "abstract":     "Add life support, quality-of-life, radiation, malfunctions, signals and space weather mechanics.",
+    "author":       "Kerbalism Contributors",
+    "$kref":        "#/ckan/github/Kerbalism/Kerbalism/asset_match/Kerbalism-Core*",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "Unlicense",
+    "resources": {
+        "manual": "https://kerbalism.github.io/Kerbalism",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190382-*"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed",
+        "science",
+        "resources"
+    ],
     "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.24" }
+        { "name": "Kerbalism-Config" },
+        { "name": "KSPCommunityFixes" },
+        { "name": "Harmony2" }
     ],
-    "supports": [
-        { "name": "AntennaRange" },
-        { "name": "CommunityResourcePack" },
-        { "name": "ConnectedLivingSpace" },
-        { "name": "CryoTanks" },
-        { "name": "DangIt" },
-        { "name": "DeepFreeze" },
-        { "name": "KerbalAtomics" },
-        { "name": "KerbalPlanetaryBaseSystems" },
-        { "name": "NearFutureElectrical" },
-        { "name": "NearFutureSolar" },
-        { "name": "NearFutureSpacecraft" },
-        { "name": "origameFoldableAssets" },
-        { "name": "RemoteTech" },
-        { "name": "SCANsat" },
-        { "name": "VenStockRevamp" }
+    "recommends": [
+        { "name": "KerbalChangelog" }
     ],
-    "x_netkan_override": [
-        {
-            "version": "<1.1.5",
-            "override": {
-                "recommends": [
-                    { "name": "Kerbalism-Profile" }
-                ],
-                "install": [
-                    {
-                        "file": "GameData/Kerbalism",
-                        "install_to": "GameData",
-                        "filter_regexp": [ "GameData/Kerbalism/Profiles/.+\\.cfg$" ]
-                    }
-                ]
-            }
-        }
-    ]
+    "install": [ {
+        "find":       "Kerbalism",
+        "install_to": "GameData"
+    } ]
 }

@@ -4,13 +4,18 @@
     "$kref"          : "#/ckan/spacedock/302",
     "$vref"          : "#/ckan/ksp-avc",
     "license"        : "MIT",
-    "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/index.php?/topic/133082-krash-kerbal-ramification-artifical-simulation-hub-simulation-mod-for-ksp/",
-        "repository"  : "https://github.com/linuxgurugamer/KRASH"
-    },
-    "recommends": [ { "name": "JanitorsCloset" } ],
-    "install" : 
-    [
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
+    "recommends": [
+        { "name": "JanitorsCloset" }
+    ],
+    "install" :  [
         {
             "find"       : "KRASH",
             "install_to" : "GameData"

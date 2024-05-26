@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SovietConversion",
+    "$kref":        "#/ckan/spacedock/858",
+    "x_netkan_epoch": "1",
+    "x_netkan_staging": true,
+    "x_netkan_staging_reason": "Check Contares max version",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed",
+        "config",
+        "career"
+    ],
+    "depends": [
+        { "name": "NewTantares" },
+        { "name": "NewTantaresLV" },
+        { "name": "ABLaunchers" },
+        { "name": "Contares" },
+        { "name": "ModuleManager" },
+        { "name": "AdditionalProgressionContracts" }
+    ],
+    "recommends": [
+        { "name": "AsteroidDay" },
+        { "name": "Taerobee" },
+        { "name": "Kosmodrome" }
+    ],
+    "suggests": [
+        { "name": "ContractConfigurator-AdvancedProgression"}
+    ],
+    "install" : [ {
+        "file": "Ships",
+        "install_to": "Ships"
+    }, {
+        "find": "SovietConversion",
+        "install_to": "GameData"
+    } ]
+}

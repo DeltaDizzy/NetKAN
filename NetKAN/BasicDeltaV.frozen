@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "BasicDeltaV",
+    "license":      "GPL-3.0",
+    "$kref":        "#/ckan/spacedock/1392",
+    "$vref":        "#/ckan/ksp-avc",
+    "tags": [
+        "plugin",
+        "information",
+        "editor"
+    ]
+}

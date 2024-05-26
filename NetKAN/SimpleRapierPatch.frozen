@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SimpleRapierPatch",
+    "$kref":        "#/ckan/spacedock/1450",
+    "license":      "public-domain",
+    "tags": [
+        "config"
+    ],
+    "install": [ {
+        "file": "RAPIERpatch.cfg",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

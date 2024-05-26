@@ -1,0 +1,32 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "KEAMKerbalExpandableActivityModule",
+    "$kref":        "#/ckan/spacedock/1606",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [ {
+        "find":       "GameData/KEAM",
+        "install_to": "GameData"
+    }, {
+        "find":       "OptionalConfigs/KEAM-CLS.cfg",
+        "install_to": "GameData/KEAM",
+        "find_matches_files": true
+    }, {
+        "find":       "OptionalConfigs/KEAM-tweakscale.cfg",
+        "install_to": "GameData/KEAM",
+        "find_matches_files": true
+    } ],
+    "depends": [
+        { "name": "ModuleManager"     },
+        { "name": "TexturesUnlimited" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "TweakScale"           },
+        { "name": "KIS"                  },
+        { "name": "KAS"                  }
+    ]
+}

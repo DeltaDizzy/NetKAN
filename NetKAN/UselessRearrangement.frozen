@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "UselessRearrangement",
+    "$kref":        "#/ckan/spacedock/1449",
+    "license":      "restricted",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "install": [ {
+        "find": "UselessRearrangement",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ]
+}

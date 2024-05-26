@@ -1,0 +1,17 @@
+spec_version: v1.4
+identifier: CParts
+$kref: '#/ckan/spacedock/2638'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+recommends:
+  - name: PersistentRotation
+suggests:
+  - name: StockWaterfallEffects
+  - name: SRBWaterfallEffects
+install:
+  - find: GameData/CParts
+    install_to: GameData

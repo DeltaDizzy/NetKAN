@@ -1,0 +1,20 @@
+spec_version: v1.18
+identifier: SRBWaterfallEffects
+$kref: '#/ckan/spacedock/2992'
+x_netkan_version_edit: ^(?<version>[^" ]+).*$
+license: CC-BY-NC-SA
+tags:
+  - config
+  - graphics
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+  - name: RealPlume
+  - name: RealPlume-StockConfigs
+  - name: SmokeScreen
+suggests:
+  - name: AudioMufflerRedux
+  - name: TUFX
+install:
+  - find: RSMP
+    install_to: GameData

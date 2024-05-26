@@ -1,17 +1,32 @@
 {
-    "$kref": "#/ckan/spacedock/1079",
     "spec_version": "v1.4",
-    "identifier": "SimpleLogistics",
-    "x_via": "Manual SpaceDock CKAN submission",
-    "license": "GPL-3.0",
-    "author": "RealGecko",
+    "identifier":   "SimpleLogistics",
+    "author":       [ "RealGecko", "zer0Kerbal" ],
+    "$kref":        "#/ckan/spacedock/1079",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+     "tags": [
+       "plugin",
+       "resources"
+    ],
     "depends": [
-         {
-             "name": "ModuleManager"
-         }
-     ],
-    "recommends"     : [
-        {"name" : "EasyVesselSwitch"},
-        {"name" : "AlternateResourcePanel"}
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "suggests": [
+        { "name": "ODFC-Refueled"           },
+        { "name": "SimpleConstruction"      },
+        { "name": "Komplexity"              },
+        { "name": "FieldTrainingLaboratory" },
+        { "name": "FieldTrainingFacility"   },
+        { "name": "DockingPortDescriptions" },
+        { "name": "PicoPortShielded"        },
+        { "name": "KerbalChangelog"         },
+        { "name": "Pteron"                  }
+    ],
+    "supports": [
+        { "name": "KerbalChangelog"         },
+        { "name": "AlternateResourcePanel"  }
     ]
 }

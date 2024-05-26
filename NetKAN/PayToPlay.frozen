@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PayToPlay",
+    "abstract":     "Makes you pay for reusing vehicles above just refueling them",
+    "$kref":        "#/ckan/github/DarthPointer/PayToPlay",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193467-*"
+    },
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KSP-Recall" }
+    ],
+    "recommends": [
+        { "name": "KerbalConstructionTime" }
+    ],
+    "suggests": [
+        { "name": "Kerbalism"              },
+        { "name": "ProceduralParts"        },
+        { "name": "EngineIgnitorReignited" },
+        { "name": "ReStockPlus"            }
+    ]
+}

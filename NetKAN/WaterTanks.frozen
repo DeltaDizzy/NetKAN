@@ -1,0 +1,26 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "WaterTanks",
+	"name"         : "Ballast Water Tanks",
+	"abstract"     : "Add parts with in-flight mass changing. Designed for submarines, act good as payload weight",
+	"author"       : "Jenyaza01",
+    "$kref"        : "#/ckan/github/jenyaza01/BallastWaterTanks",
+	"$vref"        : "#/ckan/ksp-avc",
+    "license"      : "MIT",
+	"resources" : {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/152741-*"
+    },
+    "tags": [
+        "parts"
+    ],
+	"install": [ {
+        "find"       : "Jenyaza",
+        "install_to" : "GameData"
+    } ],
+    "depends"   : [
+    	{
+    		"name"       : "ModuleManager",
+    		"min_version": "2.6"
+    	}
+    ]
+}

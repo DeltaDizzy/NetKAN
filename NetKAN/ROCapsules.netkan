@@ -1,0 +1,9 @@
+spec_version: 1
+identifier: ROCapsules
+$kref: '#/ckan/netkan/https://github.com/KSP-RO/ROCapsules/raw/master/ROCapsules.netkan'
+x_netkan_license_ok: true
+tags:
+  - parts
+  - config
+  - graphics
+  - crewed

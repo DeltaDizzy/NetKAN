@@ -1,0 +1,36 @@
+{
+    "spec_version": "v1.10",
+    "identifier":   "KerbinSideGAP",
+    "name":         "Kerbin Side GAP",
+    "abstract":     "Aircraft routes all around the Kerbin! Contracts to perform various flights between majority of Kerbin Side bases",
+    "$kref":        "#/ckan/github/Keniamin/KerbinSideGAP",
+    "license":      "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/133545-*"
+    },
+    "tags": [
+        "config",
+        "buildings"
+    ],
+    "depends": [
+        { "name": "ModuleManager"    },
+        { "name": "KerbalKonstructs" },
+        { "name": "ContractConfigurator", "min_version": "1.21.0" }
+    ],
+    "recommends": [
+        { "name": "WaypointManager" }
+    ],
+    "suggests": [
+        { "name": "KerbalAircraftExpansion" }
+    ],
+    "install" : [
+        {
+            "file": "KerbinSideGAP",
+            "install_to": "GameData/ContractPacks"
+        },
+        {
+            "file": "KerbinSideRunways.rwy",
+            "install_to": "GameData/KerbalScienceFoundation/NavInstruments/Runways"
+        }
+    ]
+}

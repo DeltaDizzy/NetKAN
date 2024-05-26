@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "HyperPropulsionSciFiEnginePack",
+    "$kref":        "#/ckan/spacedock/2137",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "KerboNerdLaboratories",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"           },
+        { "name": "SmartActuation"          },
+        { "name": "B9PartSwitch"            },
+        { "name": "CommunityResourcePack"   }
+    ],
+    "recommends": [
+        { "name": "KerbalJointReinforcement" }
+    ]
+}

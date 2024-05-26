@@ -1,0 +1,16 @@
+{
+    "spec_version" : 1,
+    "identifier"   : "Explainer",
+    "$kref"        : "#/ckan/spacedock/1253",
+    "license"      : "MIT",
+    "tags": [
+        "plugin",
+        "information",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "UKS"           },
+        { "name": "USI-LS"        }
+    ]
+}

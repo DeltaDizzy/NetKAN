@@ -1,0 +1,33 @@
+{
+    "spec_version"   : "v1.2",
+    "name"           : "Custom Biomes (Stock data)",
+    "identifier"     : "CustomBiomes-Data-Stock",
+    "abstract"       : "Custom biomes data for the stock Kerbol system",
+    "$kref"          : "#/ckan/github/NathanKell/CustomBiomes",
+    "author"         : "Trueborn",
+    "ksp_version"    : "0.90",
+    "release_status" : "stable",
+    "license"        : "CC-BY-NC-SA-3.0",
+    "resources" : {
+        "homepage" : "https://forum.kerbalspaceprogram.com/index.php?/topic/60163-*"
+    },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "depends"        : [
+        { "name" : "CustomBiomes" }
+    ],
+    "provides"       : [ "CustomBiomes-Data" ],
+    "conflicts"      : [
+        { "name" : "CustomBiomes-Data" }
+    ],
+    "install" : [
+        {
+            "file"          : "CustomBiomes/PluginData/CustomBiomes",
+            "install_to"    : "GameData/CustomBiomes/PluginData",
+            "filter"        : [ "config.xml", "Thumbs.db" ],
+            "comment"       : "config.xml is bundled with the main mod itself"
+        }
+    ]
+}

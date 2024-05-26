@@ -1,0 +1,12 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ManeuverNodeEvolved",
+    "$kref":        "#/ckan/spacedock/1087",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "convenience",
+        "information"
+    ]
+}

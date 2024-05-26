@@ -1,20 +1,29 @@
 {
-    "identifier": "Mk3Expansion",
-    "license": "CC-BY-NC-SA-4.0",
     "spec_version": "v1.4",
-    "$kref": "#/ckan/spacedock/663",
+    "identifier":   "Mk3Expansion",
+    "$kref":        "#/ckan/spacedock/663",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed"
+    ],
     "depends": [
         { "name": "ModuleManager" },
         { "name": "CommunityResourcePack" },
-        { "name": "InterstellarFuelSwitch-Core" }
-],
-    "suggests": [
-    { "name": "FerramAerospaceResearch" }
+        { "name": "B9PartSwitch" }
     ],
     "install" : [
         {
             "find"       : "GameData/Mk3Expansion",
             "install_to" : "GameData"
+        },
+        {
+            "find"        : "VAB",
+            "install_to"  : "Ships"
+        },
+        {
+            "find"        : "SPH",
+            "install_to"  : "Ships"
         }
     ]
 }

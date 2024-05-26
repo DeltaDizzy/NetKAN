@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RandomishEclipses",
+    "$kref":        "#/ckan/spacedock/703",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "Kopernicus" },
+        { "name": "ModuleManager" }
+    ]
+}

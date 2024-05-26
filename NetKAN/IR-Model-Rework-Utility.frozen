@@ -1,21 +1,35 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "IR-Model-Rework-Utility",
-    "$kref"        : "#/ckan/kerbalstuff/677",
-    "license"       : "CC-BY-NC-ND-4.0",
-    "depends"       : [ { "name" : "InfernalRobotics" },
-                        { "name" : "IR-Model-Rework-Core" },
-                        { "name" : "TweakableEverything" },
-                        { "name" : "ToadicusTools" } ],
-    "recommends"    : [ { "name" : "IR-Model-Rework-Expansion" } ],
-    "conflicts"     : [ { "name" : "CIT-Util"},
-                        { "name" : "ActiveStruts"} ],
-"comment" : "These conflicts should be dependencies but https://github.com/KSP-CKAN/NetKAN/issues/932 happened",
-    "install"       : [ { "find" : "MagicSmokeIndustries",
-                        "install_to" : "GameData",
-                        "filter_regexp" : [ "Rework_License.txt",
-                                            "Rework_TweakScale.cfg" ] },
-                        { "find" : "CIT",
-                        "install_to" : "GameData",
-                        "comment" : "ugly hack to get this pack working for now. This will bite me (Daz) in the ass down the line for sure" } ]
+    "spec_version": "v1.4",
+    "identifier":   "IR-Model-Rework-Utility",
+    "name":         "Infernal Robotics Model Rework - Utility Pack",
+    "abstract":     "For all your actuation needs",
+    "author":       [ "ZodiusInfuser", "Ziw" ],
+    "download":     "https://drive.google.com/uc?export=download&id=0B9f5PHcywXQINzQ3UC1aLVNBZk0",
+    "version":      "v02",
+    "ksp_version":  "1.1.2",
+    "license":      "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/59359-*/&page=80&tab=comments#comment-2564645"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "InfernalRobotics", "min_version": "0.19.4" },
+        { "name": "IR-Model-Rework-Core" },
+        { "name": "TweakableEverything" },
+        { "name": "ToadicusTools" }
+    ],
+    "recommends": [
+        { "name": "IR-Model-Rework-Expansion" }
+    ],
+    "conflicts": [
+        { "name": "CIT-Util" },
+        { "name": "ActiveStruts" }
+    ],
+    "install": [ {
+        "find": "MagicSmokeIndustries",
+        "install_to": "GameData",
+        "filter": [ "IRActiveStruts", "Rework_Core", "Rework_Expansion", "Rework_License.txt", "Rework_TweakScale.cfg" ]
+    } ]
 }

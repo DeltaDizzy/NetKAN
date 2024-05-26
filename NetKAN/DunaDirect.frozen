@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.25",
+    "identifier":   "DunaDirect",
+    "$kref":        "#/ckan/spacedock/1994",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "parts",
+        "config"
+    ],
+    "install": [ {
+        "find":       "GameData/MarsDirect",
+        "install_to": "GameData",
+        "filter":     [ "Missions" ]
+    }, {
+        "find":       "Missions",
+        "install_to": "Missions"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

@@ -1,16 +1,25 @@
 {
-    "spec_version" : 1,
+    "spec_version" : "v1.4",
     "identifier"   : "ExperimentTracker",
-    "$kref"        : "#/ckan/curse/250310",
+    "$kref"        : "#/ckan/spacedock/1858",
+    "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_force_v": true,
+    "x_netkan_epoch": "1",
     "license"      : "Apache-2.0",
     "abstract"     : "This mod lists all science experiments and helps to deploy them fast and easy.",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146984-113-experimenttracker/"
-    },
-    "x_netkan_force_v": true,
-	  "install": [ 
+    "tags": [
+        "plugin",
+        "science",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ModuleManager"       },
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "install": [
         {
-            "file"       : "ExperimentTracker",
+            "find"       : "ExperimentTracker",
             "install_to" : "GameData"
         }
     ]

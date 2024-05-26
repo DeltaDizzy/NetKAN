@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SnapDock",
+    "$kref":        "#/ckan/spacedock/870",
+    "license":      "unrestricted",
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find": "XyphosAerospace",
+        "install_to": "GameData"
+    } ]
+}

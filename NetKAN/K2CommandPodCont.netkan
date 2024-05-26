@@ -1,20 +1,25 @@
 {
-    "identifier": "K2CommandPodCont",
-    "$kref": "#/ckan/spacedock/1163",
     "spec_version": "v1.4",
-    "license" : "CC-BY-NC-SA-4.0",
-    "install": [
-        {
-            "file": "GameData/JFJohnny5",
-            "install_to": "GameData"
-        }
+    "identifier":   "K2CommandPodCont",
+    "$kref":        "#/ckan/spacedock/1163",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "parts",
+        "crewed"
     ],
+    "install": [ {
+        "file":       "GameData/JFJohnny5",
+        "install_to": "GameData"
+    } ],
     "conflicts": [
         { "name": "K2CommandPod" }
     ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
     "supports": [
-        {   "name" : "ConnectedLivingSpace" },
-        {   "name" : "TacLifeSupport" }
+        { "name": "ConnectedLivingSpace" },
+        { "name": "TacLifeSupport"       }
     ]
 }
-

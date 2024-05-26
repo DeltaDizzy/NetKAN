@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KSCSupportStaff",
+    "$kref":        "#/ckan/spacedock/1619",
+    "license":      "restricted",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        { "name": "TextureReplacerReplaced" }
+    ],
+    "install": [ {
+        "find":       "TRR_WBN",
+        "install_to": "GameData"
+    } ]
+}

@@ -1,0 +1,13 @@
+{
+	"spec_version": "v1.4",
+	"identifier":   "FuelEfficientPilots",
+	"$kref":        "#/ckan/spacedock/1466",
+	"license":      "CC-BY-NC-SA-4.0",
+	"tags": [
+		"config",
+		"crewed"
+	],
+	"depends": [
+		{ "name": "ModuleManager" }
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "KerbinElectric",
+    "$kref":        "#/ckan/spacedock/2047",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "GameData/Kerbin_Electric_en",
+        "install_to": "GameData"
+    }, {
+        "find":       "fr-fr.cfg",
+        "install_to": "GameData/Kerbin_Electric_en/Localization",
+        "find_matches_files": true
+    } ]
+}

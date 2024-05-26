@@ -1,0 +1,22 @@
+{
+    "spec_version" : "v1.26",
+    "identifier"   : "UtilityWeight",
+    "name"         : "Utility Weight",
+    "author"       : "flart",
+    "$kref"        : "#/ckan/github/yalov/UtilityWeight",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "release_status": "stable",
+    "resources" : {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189536-*"
+    },
+    "tags": [
+        "parts"
+    ],
+    "recommends": [
+        { "name": "B9PartSwitch" }
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

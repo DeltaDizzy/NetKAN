@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ExtendedAntennaProgression",
+    "$kref":        "#/ckan/github/LouisB3/KSP-ExtendedAntennaProgression",
+    "x_netkan_github": {
+        "use_source_archive": true
+    },
+    "license":      "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/158971-*"
+    },
+    "tags": [
+        "parts",
+        "comms"
+    ],
+    "install": [ {
+        "find": "ExtendedAntennaProgression",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ]
+}

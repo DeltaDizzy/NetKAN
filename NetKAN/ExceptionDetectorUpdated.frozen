@@ -1,0 +1,10 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "ExceptionDetectorUpdated",
+    "$kref":        "#/ckan/spacedock/2063",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "Unlicense",
+    "tags": [
+        "plugin"
+    ]
+}

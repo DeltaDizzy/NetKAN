@@ -1,0 +1,21 @@
+{
+    "spec_version": "v1.10",
+    "identifier":   "KSPFrenchTranslation",
+    "$kref":        "#/ckan/spacedock/1501",
+    "license":      "MIT",
+    "localizations": [
+        "fr-fr"
+    ],
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find_regexp": "KSP Patch Fran.ais",
+            "install_to": "GameData"
+        }
+    ]
+}

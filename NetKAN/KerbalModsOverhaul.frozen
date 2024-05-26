@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbalModsOverhaul",
+    "$kref":        "#/ckan/spacedock/1735",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "config"
+    ],
+    "install": [ {
+        "find":       "KMO",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"            },
+        { "name": "PatchManager"             },
+        { "name": "UKS"                      },
+        { "name": "USI-LS"                   },
+        { "name": "ExtraPlanetaryLaunchpads" }
+    ],
+    "recommends": [
+        { "name": "OSEWorkShopCont"                },
+        { "name": "KeridianDynamicsVesselAssembly" }
+    ],
+    "suggests": [
+        { "name": "KIS" },
+        { "name": "KAS" }
+    ]
+}

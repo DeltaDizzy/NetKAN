@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "XDHorribleWeapons",
+    "$kref":        "#/ckan/spacedock/1951",
+    "license":      "CC-BY-SA-4.0",
+    "tags": [
+        "parts",
+        "combat"
+    ],
+    "install": [ {
+        "find":       "XD horrible weapons pack",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "BDArmoryContinued" }
+    ]
+}

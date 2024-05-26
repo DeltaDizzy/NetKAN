@@ -1,0 +1,28 @@
+{
+    "spec_version"  : 1,
+    "identifier"    : "MapResourceOverlay",
+    "name"          : "Map Resource Overlay",
+    "abstract"      : "MapResourceOverlay for Science, Karbonite/MKS and biomes",
+    "description"   : "MapResourceOverlay for Science, Karbonite/MKS and biomes",
+    "$kref"         : "#/ckan/github/sawyerap/MapResourceOverlay",
+    "x_broken_vref" : "#/ckan/ksp-avc",
+    "license"       : "CC-BY-NC-SA",
+    "ksp_version"   : "0.90",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/83356-*"
+    },
+    "tags": [
+        "plugin",
+        "resources",
+        "information"
+    ],
+    "depends": [
+        { "name": "Karbonite" },
+        { "name": "Toolbar" }
+    ],
+    "suggests": [
+        { "name": "Regolith" },
+        { "name": "SCANsat" }
+    ]
+}

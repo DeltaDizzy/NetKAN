@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SurfaceExperimentPack",
+    "author":       [ "AlbertKermin", "CobaltWolf", "DMagic1" ],
+    "$kref":        "#/ckan/spacedock/318",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "BSD-2-clause",
+    "tags": [
+        "plugin",
+        "parts",
+        "science",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "KAS"           },
+        { "name": "KIS"           }
+    ],
+    "supports": [
+        { "name": "OuterPlanetsMod" },
+        { "name": "NewHorizons" },
+        { "name": "KerbalPlanetaryBaseSystems" },
+        { "name": "RemoteTech" },
+        { "name": "AntennaRange" }
+    ],
+    "suggests": [
+        { "name": "BluedogDB" }
+    ],
+    "install": [
+        {
+            "find":       "SurfaceExperimentPackage",
+            "install_to": "GameData"
+        }
+    ]
+}

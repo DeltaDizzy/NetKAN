@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "OldPartsRedux",
+    "$kref":        "#/ckan/spacedock/1744",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "x_netkan_override": [ {
+        "version": "1:0.10.0",
+        "override": {
+            "ksp_version_min": "1.8.1"
+        }
+    } ]
+}

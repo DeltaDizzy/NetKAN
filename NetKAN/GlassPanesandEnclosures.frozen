@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "GlassPanesandEnclosures",
+    "author":       [ "2001kraft", "Nazari1382" ],
+    "$kref":        "#/ckan/spacedock/312",
+    "license":      "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106633-*"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find" : "GlassThings",
+        "install_to" : "GameData"
+    } ]
+}

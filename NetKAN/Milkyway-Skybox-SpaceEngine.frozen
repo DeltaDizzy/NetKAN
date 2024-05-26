@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Milkyway-Skybox-SpaceEngine",
+    "$kref":        "#/ckan/spacedock/2081",
+    "ksp_version":  "any",
+    "license":      "GPL-2.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "install": [ {
+        "find":       "TextureReplacer",
+        "install_to": "GameData/Milkyway-Skybox-SpaceEngine"
+    } ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ]
+}

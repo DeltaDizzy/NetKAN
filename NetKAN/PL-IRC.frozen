@@ -1,0 +1,19 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "PL-IRC",
+    "$kref":        "#/ckan/spacedock/469",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "WTFPL",
+    "tags": [
+        "plugin",
+        "resources",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "PanzerLabs",
+        "install_to": "GameData"
+    } ]
+}

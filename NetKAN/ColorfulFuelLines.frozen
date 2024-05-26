@@ -1,0 +1,32 @@
+{
+    "spec_version": 1,
+    "identifier":   "ColorfulFuelLines",
+    "$kref":        "#/ckan/spacedock/94",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/115315-*"
+    },
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "InterstellarFuelSwitch-Core" }
+    ],
+    "supports": [
+        { "name": "ModularRocketSystem" },
+        { "name": "ModularRocketSystemsLITE" },
+        { "name": "SpaceY-Lifters" },
+        { "name": "ColorCodedCans" },
+        { "name": "FuelTanksPlus" },
+        { "name": "LithobrakeExplorationTechnologies" }
+    ],
+    "install": [
+        {
+            "file"       : "ColorfulFuelLines",
+            "install_to" : "GameData"
+        }
+    ]
+}

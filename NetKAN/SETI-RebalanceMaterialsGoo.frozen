@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SETI-RebalanceMaterialsGoo",
+    "name":         "SETI-Rebalance MaterialsBay & MysteryGoo",
+    "abstract":     "This is the SETI Rebalance MaterialsBay and MysteryGoo MM patch, so that those 2 experiments can not be collected by scientists anymore, which makes them much more balanced in terms of mass/science payout.",
+    "$kref":        "#/ckan/github/Y3mo/SETI-RebalanceMaterialsGoo",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/95645-*"
+    },
+    "tags": [
+        "config",
+        "parts",
+        "science"
+    ],
+    "depends": [
+          { "name": "ModuleManager" }
+    ],
+    "install": [
+        {
+            "find"       : "SETIrebalanceMaterialsGoo",
+            "install_to" : "GameData"
+        }
+    ]
+}

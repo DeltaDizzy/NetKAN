@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MoarFEConfigs",
+    "$kref":        "#/ckan/spacedock/2071",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC0",
+    "tags": [
+        "config",
+        "editor",
+        "convenience"
+    ],
+    "install": [ {
+        "find":       "MoarFilterExtensionConfigs",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"    },
+        { "name": "FilterExtensions" }
+    ]
+}

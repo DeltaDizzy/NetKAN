@@ -1,0 +1,19 @@
+{
+    "spec_version": 1,
+    "identifier":   "ContractRewardModifier",
+    "$kref":        "#/ckan/spacedock/132",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "suggests": [
+        { "name": "CapCom" },
+        { "name": "ContractsWindowPlus" }
+    ],
+    "install": [ {
+        "file": "GameData/ContractRewardModifier",
+        "install_to": "GameData"
+    } ]
+}

@@ -1,0 +1,13 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "FASA-RCS",
+    "$kref":        "#/ckan/spacedock/1790",
+    "license":      "GPL-3.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "FASA_RCS",
+        "install_to": "GameData"
+    } ]
+}

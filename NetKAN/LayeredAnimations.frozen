@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "LayeredAnimations",
+    "name":         "Layered Animations",
+    "abstract":     "Adds layers to KSP's ModuleAnimateGeneric",
+    "$kref":        "#/ckan/github/Starwaster/LayeredAnimations",
+    "license":      "Unlicense",
+    "ksp_version_min": "0.90",
+    "ksp_version_max": "1.0.4",
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "install": [
+        {
+            "file": "LayeredAnimations",
+            "install_to": "GameData",
+            "filter": "LayeredAnimations.Centrifuge1.tweak.cfg",
+            "comment": "Patch is only necessary to fix Porkjet's Habitat Pack, which now includes these changes."
+        }
+    ]
+}

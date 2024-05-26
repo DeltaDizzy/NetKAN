@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "WarpEverywhere",
+    "$kref":        "#/ckan/spacedock/982",
+    "license":      "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "install": [ {
+        "find":       "WarpEverywhere",
+        "install_to": "GameData"
+    } ],
+    "x_netkan_override": [ {
+        "version": "1.0",
+        "override": {
+            "ksp_version_min": "1.4"
+        }
+    } ]
+}

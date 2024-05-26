@@ -1,0 +1,8 @@
+spec_version: v1.2
+identifier: HotSpot
+$kref: >-
+  #/ckan/netkan/https://raw.githubusercontent.com/Apokee/HotSpot/develop/HotSpot.netkan
+license: MIT
+tags:
+  - plugin
+  - information

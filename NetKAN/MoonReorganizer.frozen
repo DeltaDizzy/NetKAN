@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MoonReorganizer",
+    "$kref":        "#/ckan/spacedock/1533",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "recommends": [
+        { "name": "SigmaBinary-core" }
+    ]
+}

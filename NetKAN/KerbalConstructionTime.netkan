@@ -2,29 +2,35 @@
     "spec_version"   : 1,
     "identifier"     : "KerbalConstructionTime",
     "$kref"          : "#/ckan/spacedock/222",
+    "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_epoch" : 1,
     "license"        : "GPL-3.0",
-    "recommends" : [
-        {
-            "name" : "StageRecovery"
-        },
-        {
-            "name" : "KRASH"
-        }
+    "tags": [
+        "plugin",
+        "career"
     ],
-    "suggests" : [
-        {
-            "name" : "Toolbar"
-        }
+    "install": [ {
+        "file":       "GameData/KerbalConstructionTime",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager"       },
+        { "name": "MagiCore"            },
+        { "name": "ClickThroughBlocker" },
+        { "name": "ToolbarController"   },
+        { "name": "SpaceTuxLibrary"     }
     ],
-    "install" : [
-        {
-            "file"       : "GameData/KerbalConstructionTime",
-            "install_to" : "GameData"
-        }
+    "recommends": [
+        { "name": "ScrapYard"     },
+        { "name": "KRASH"         },
+        { "name": "StageRecovery" },
+        { "name": "CrewQueueTwo"  },
+        { "name": "OhScrap"       }
     ],
-    "depends" : [
-        {
-            "name" : "MagiCore"
-        }
+    "suggests": [
+        { "name": "KerbalAlarmClock" }
+    ],
+    "conflicts": [
+        { "name": "KerbalConstructionTime-173" }
     ]
 }

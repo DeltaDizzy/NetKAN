@@ -1,23 +1,31 @@
 {
-    "spec_version": 1,
-    "identifier": "WaypointManager",
-    "$kref": "#/ckan/github/jrossignol/WaypointManager",
-    "name": "Waypoint Manager",
-    "abstract": "Display waypoints while in flight, create custom waypoints.",
-    "license": "MIT",
-    "release_status": "stable",
-    "author": "nightingale",
-    "$vref": "#/ckan/ksp-avc",
-    "description": "Display waypoints while in flight, create custom waypoints.",
-    "install": [
-        {
-            "file"       : "GameData/WaypointManager",
-            "install_to" : "GameData"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/104758",
-        "bugtracker": "https://github.com/jrossignol/WaypointManager/issues",
-        "license": "https://raw.githubusercontent.com/jrossignol/WaypointManager/master/LICENSE.txt"
+
+  "license": "MIT",
+  "identifier": "WaypointManager",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/3107",
+  "$vref": "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194876-18x-19x-waypoint-manager/",
+    "repository": "https://github.com/linuxgurugamer/WaypointManager"
+  },
+"abstract": "Display waypoints while in flight, create custom waypoints.",
+  "depends": [
+    { "name": "ToolbarController" },
+    { "name": "ClickThroughBlocker" },
+    { "name": "SpaceTuxLibrary" }
+  ],
+  "tags": [
+    "plugin",
+    "information",
+    "convenience"
+  ],
+  "install": [
+    {
+      "find": "WaypointManager",
+      "install_to": "GameData"
     }
+  ],
+  "spec_version": "v1.4"
 }
+

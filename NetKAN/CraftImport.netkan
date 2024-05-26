@@ -3,16 +3,22 @@
     "identifier"     : "CraftImport",
     "$kref"          : "#/ckan/spacedock/47",
     "$vref"          : "#/ckan/ksp-avc",
+    "x_netkan_epoch" : 1,
     "license"        : "GPL-3.0",
-    "resources" : {
-        "homepage"    : "http://forum.kerbalspaceprogram.com/threads/132828",
-        "repository"  : "https://github.com/linuxgurugamer/CraftImport"
-    },
-    "recommends": [ { "name": "JanitorsCloset" } ],
-    "install" : [
-        {
-            "find"       : "CraftImport",
-            "install_to" : "GameData"
-        }
-    ]
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
+    "recommends": [
+        { "name": "JanitorsCloset" }
+    ],
+    "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ],
+    "install": [ {
+        "find"       : "CraftImport",
+        "install_to" : "GameData"
+    } ]
 }

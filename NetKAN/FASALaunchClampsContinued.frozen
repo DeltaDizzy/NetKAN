@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+	"identifier":   "FASALaunchClampsContinued",
+	"abstract":     "A continuation of the stand alone package for just the FASA launch clamps",
+    "$kref":        "#/ckan/github/Galileo88/FASA_LaunchClampsContinued",
+	"$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA",
+	"resources": {
+		"homepage": "https://github.com/Galileo88/FASA_LaunchClampsContinued"
+	},
+	"tags": [
+		"parts"
+	],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "AlmostFreeLaunchClamps" }
+    ],
+    "install": [ {
+        "file": "GameData/FASA",
+        "install_to": "GameData"
+    } ]
+}

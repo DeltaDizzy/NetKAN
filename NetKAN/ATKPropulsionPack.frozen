@@ -1,0 +1,15 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ATKPropulsionPack",
+    "$kref":        "#/ckan/spacedock/404",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "install": [
+        {
+            "find": "ATK_Propulsion_Pack",
+            "install_to": "GameData"
+        }
+    ]
+}

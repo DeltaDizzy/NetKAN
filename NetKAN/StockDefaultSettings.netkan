@@ -1,0 +1,30 @@
+{
+  "license": "LGPL-3.0",
+  "identifier": "StockDefaultSettings",
+  "x_via": "Automated Linuxgurugamer CKAN script",
+  "$kref": "#/ckan/spacedock/2549",
+  "$vref": "#/ckan/ksp-avc",
+  "depends": [
+    {
+      "name": "ToolbarController"
+    },
+    {
+      "name": "ClickThroughBlocker"
+    },
+    {
+      "name": "SpaceTuxLibrary"
+    }
+  ],
+  "tags": [
+    "config",
+    "plugin",
+    "convenience"
+  ],
+  "install": [
+    {
+      "find": "StockDefaultSettings",
+      "install_to": "GameData"
+    }
+  ],
+  "spec_version": "v1.4"
+}

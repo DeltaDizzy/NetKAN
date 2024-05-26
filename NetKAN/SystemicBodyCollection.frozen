@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SystemicBodyCollection",
+    "$kref":        "#/ckan/spacedock/1530",
+    "license":      "MIT",
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        { "name": "ModuleManager" },
+        { "name": "Kopernicus" }
+    ],
+    "install": [ {
+        "file": "DeltaDizzy",
+        "install_to": "GameData"
+    } ]
+}

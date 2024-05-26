@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RN8474-8300-Skybox",
+    "$kref":        "#/ckan/spacedock/2129",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "install": [ {
+        "find":       "TextureReplacer",
+        "install_to": "GameData/RN8474-8300-Skybox"
+    } ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ],
+    "x_netkan_override": [ {
+        "version": "1.0",
+        "override": {
+            "ksp_version_min": "1.7"
+        }
+    } ]
+}

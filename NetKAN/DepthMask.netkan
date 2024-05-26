@@ -1,0 +1,20 @@
+spec_version: v1.16
+identifier: DepthMask
+$kref: '#/ckan/spacedock/2943'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-SA
+tags:
+  - plugin
+  - library
+suggests:
+  - name: StockDepthMaskConfig
+install:
+  - find: GameData/DepthMask
+    install_to: GameData
+  - find: README.md
+    find_matches_files: true
+    install_to: GameData/DepthMask
+x_netkan_override:
+  - version: 1.1.2
+    override:
+      ksp_version_min: '1.11'

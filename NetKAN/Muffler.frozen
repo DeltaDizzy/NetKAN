@@ -1,0 +1,16 @@
+{
+    "spec_version": 1,
+    "$kref"       : "#/ckan/spacedock/262",
+    "identifier"  : "Muffler",
+    "license"     : "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/46198-021-105-audio-muffler/"
+    },
+    "install": [
+        {
+            "file"       : "SiliskoIndustries",
+            "install_to" : "GameData"
+        }
+    ],
+    "x_netkan_force_v": true
+}

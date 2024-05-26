@@ -1,13 +1,15 @@
-{
-    "spec_version" : 1,
-    "identifier"   : "AdjustableModPanel",
-    "$kref"        : "#/ckan/github/radistmorse/KSPAdjustableModPanel",
-    "$vref"        : "#/ckan/ksp-avc",
-    "name"         : "Adjustable Mod Panel",
-    "abstract"     : "A tool that allows you to hide mods from the stock mod panel",
-    "license"      : "BSD-2-clause",
-    "x_netkan_epoch": "1",
-    "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169087-131-adjustable-mod-panel/"
-    }
-}
+spec_version: 1
+identifier: AdjustableModPanel
+abstract: A tool that allows you to hide mods from the stock mod panel
+author:
+  - radistmorse
+  - zer0Kerbal
+$kref: '#/ckan/spacedock/2997'
+$vref: '#/ckan/ksp-avc'
+x_netkan_epoch: '1'
+license: BSD-2-clause
+tags:
+  - plugin
+  - convenience
+conflicts:
+  - name: JanitorsCloset

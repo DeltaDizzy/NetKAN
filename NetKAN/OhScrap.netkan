@@ -1,0 +1,35 @@
+spec_version: v1.4
+identifier: OhScrap
+name: OhScrap
+$kref: '#/ckan/spacedock/2364'
+$vref: '#/ckan/ksp-avc'
+license: MIT
+resources:
+  remote-avc: https://github.com/zer0Kerbal/OhScrap/raw/master/OhScrap.version
+tags:
+  - plugin
+  - editor
+  - config
+  - career
+  - uncrewed
+  - crewed
+depends:
+  - name: ModuleManager
+  - name: ScrapYard
+recommends:
+  - name: KerbalConstructionTime
+  - name: StageRecovery
+  - name: KerbalKrashSystem
+supports:
+  - name: KerbalChangelog
+  - name: KerbalConstructionTime
+  - name: FerramAerospaceResearchContinued
+  - name: RemoteTech
+  - name: UKS
+suggests:
+  - name: Kaboom
+  - name: Komplexity
+  - name: KerbalChangelog
+  - name: ContractConfigurator
+  - name: TweakScale
+  - name: KSP-Recall

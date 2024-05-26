@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "LoadingTipsPlus",
+    "license":      "restricted",
+    "$kref":        "#/ckan/spacedock/807",
+    "$vref":        "#/ckan/ksp-avc",
+    "tags": [
+        "plugin"
+    ],
+    "install":      [ {
+        "find":          "LoadingTipsPlus",
+        "install_to":    "GameData"
+    } ]
+}

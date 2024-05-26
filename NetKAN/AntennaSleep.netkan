@@ -1,9 +1,20 @@
 {
-    "$kref": "#/ckan/spacedock/980",
-    "identifier": "AntennaSleep",
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-ND-4.0",
+    "identifier":   "AntennaSleep",
+    "$kref":        "#/ckan/spacedock/980",
+    "license":      "CC-BY-NC-ND-4.0",
+    "tags": [
+        "plugin",
+        "uncrewed",
+        "comms"
+    ],
     "depends": [
         { "name": "ModuleManager" }
-    ]
+    ],
+    "x_netkan_override": [ {
+        "version": "1.1",
+        "override": {
+            "ksp_version_min": "1.8"
+        }
+    } ]
 }

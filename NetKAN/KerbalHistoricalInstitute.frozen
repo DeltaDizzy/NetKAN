@@ -1,6 +1,22 @@
 {
-    "spec_version" : 1,
-    "identifier"   : "KerbalHistoricalInstitute",
-    "$kref"        : "#/ckan/kerbalstuff/309",
-    "license"      : "CC-BY-NC-4.0"
+    "spec_version": "v1.4",
+    "identifier":   "KerbalHistoricalInstitute",
+    "$kref":        "#/ckan/spacedock/1734",
+    "license":      "CC-BY-NC-4.0",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "KerbalHistoricalInstitute",
+        "install_to": "GameData"
+    }, {
+        "find":       "Ships/@thumbs",
+        "install_to": "Ships"
+    }, {
+        "find":       "Ships/VAB",
+        "install_to": "Ships"
+    }, {
+        "find":       "Ships/SPH",
+        "install_to": "Ships"
+    } ]
 }

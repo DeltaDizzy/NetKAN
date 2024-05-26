@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "CEDA-AeronauticsDivision",
+    "$kref":        "#/ckan/spacedock/2232",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "C.E.D.A Technologies",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "Firespitter" }
+    ]
+}

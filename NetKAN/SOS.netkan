@@ -1,0 +1,20 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "SOS",
+    "$kref":        "#/ckan/spacedock/2325",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name": "ToolbarController"   },
+        { "name": "ClickThroughBlocker" },
+        { "name": "SpaceTuxLibrary"     }
+    ],
+    "install": [ {
+        "find":       "SOS",
+        "install_to": "GameData"
+    } ]
+}

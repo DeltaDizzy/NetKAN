@@ -1,0 +1,14 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbnetController",
+    "$kref":        "#/ckan/spacedock/986",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin"
+    ],
+    "install": [ {
+        "find": "KerbNetController",
+        "install_to": "GameData"
+    } ]
+}

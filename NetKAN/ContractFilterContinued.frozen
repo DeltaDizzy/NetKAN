@@ -1,0 +1,22 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "ContractFilterContinued",
+    "abstract":     "Allows the user to configure which contracts are available",
+    "$kref":        "#/ckan/spacedock/820",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "CC-BY-NC-SA-4.0",
+    "resources" : {
+        "repository"  : "https://github.com/linuxgurugamer/ContractFilterContinued"
+    },
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "conflicts" : [
+        { "name" : "ContractFilter" }
+    ],
+    "install" : [ {
+        "find"       : "ContractFilterContinued",
+        "install_to" : "GameData"
+    } ]
+}

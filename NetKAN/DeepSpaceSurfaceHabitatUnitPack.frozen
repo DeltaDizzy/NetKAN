@@ -1,0 +1,26 @@
+{
+    "spec_version": "v1.16",
+    "identifier":   "DeepSpaceSurfaceHabitatUnitPack",
+    "$kref":        "#/ckan/spacedock/1622",
+    "license":      "CC-BY-4.0",
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests": [
+        { "name": "ConnectedLivingSpace" },
+        { "name": "KIS"                  },
+        { "name": "TweakScale"           },
+        { "name": "Snacks"               },
+        { "name": "TACLS"                },
+        { "name": "USI-LS"               }
+    ],
+    "install": [ {
+        "find":       "GameData/DSSHU",
+        "install_to": "GameData"
+    } ]
+}

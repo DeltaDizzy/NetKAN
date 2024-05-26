@@ -1,0 +1,25 @@
+{
+    "spec_version"       : 1,
+    "identifier"         : "HeatPump",
+    "$kref"              : "#/ckan/github/Starwaster/HeatPump",
+    "license"            : "CC-BY-SA-3.0",
+    "ksp_version"        : "1.2.2",
+    "resources": {
+        "homepage"       : "http://forum.kerbalspaceprogram.com/index.php?/topic/115734-*"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "physics"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "file"       : "GameData/000_HeatPump",
+        "install_to" : "GameData"
+    }, {
+        "file"       : "GameData/GingerCorp",
+        "install_to" : "GameData"
+    } ]
+}

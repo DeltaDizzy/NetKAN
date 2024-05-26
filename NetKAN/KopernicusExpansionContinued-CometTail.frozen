@@ -1,0 +1,25 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KopernicusExpansionContinued-CometTail",
+    "name":         "Kopernicus Expansion Continued - Comet Tail",
+    "author":       [ "MrHappyFace", "StollD" ],
+    "$kref":        "#/ckan/github/StollD/KopernicusExpansion-Continued/asset_match/CometTail",
+    "ksp_version":  "1.7",
+    "license":      "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/119211-*"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "install": [ {
+        "find":       "KopernicusExpansion",
+        "install_to": "GameData",
+        "filter":     [ "KEX-Common.dll" ]
+    } ],
+    "depends":  [
+        { "name": "Kopernicus"                          },
+        { "name": "KopernicusExpansionContinued-Common" }
+    ]
+}

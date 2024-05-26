@@ -1,31 +1,16 @@
-{
-    "identifier": "EditorTime",
-    "spec_version": "v1.4",
-    "$kref": "#/ckan/github/magico13/Modlets/asset_match/EditorTime",
-    "name": "EditorTime",
-    "abstract": "Makes time pass while in the VAB/SPH",
-    "author": "magico13",
-    "license": "GPL-3.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/107663-1-0-x-Magico13-s-Modlets"
-    },
-    "suggests": [
-        { "name": "KerbalConstructionTime"}
-    ],
-    "install": [
-        {
-            "find"       : "EditorTime",
-            "install_to" : "GameData"
-        }
-    ],
-    "x_netkan_override": [
-        {
-            "version": "KSP1.2.2",
-            "comment": "All modlets in a single repo, I can't believe this override works!",
-            "override": {
-                "version" : "1.0.4",
-                "ksp_version" : "1.2.2"
-            }
-        }
-    ]
-}
+spec_version: v1.4
+identifier: EditorTime
+abstract: Makes time pass while in the VAB/SPH
+author:
+  - magico13
+  - linuxgurugamer
+$kref: '#/ckan/spacedock/1973'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+resources:
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/178484-*
+tags:
+  - plugin
+  - editor
+suggests:
+  - name: KerbalConstructionTime

@@ -1,0 +1,27 @@
+{
+    "spec_version" : "v1.4",
+    "identifier"   : "DarkSideTechnology",
+    "abstract"     : "A set of parts to help you in the construction of large interplanetary spacecraft. Includes MM patches for CTT, USI-LS and Snacks! It currently includes a 2.5m foldable centrifuge, 2.5m and 3.75m hubs for building stations, and inline 3.75m solar panels.",
+    "author"       : [ "Badsector", "NISSKEPCSIM" ],
+    "$kref"        : "#/ckan/spacedock/1786",
+    "$vref"        : "#/ckan/ksp-avc",
+    "license"      : "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163213-*"
+    },
+    "tags": [
+        "parts"
+    ],
+    "install": [ {
+        "find":       "DarkSideTechnologyContinued",
+        "install_to": "GameData"
+    } ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "suggests" : [
+        { "name": "CommunityTechTree" },
+        { "name": "Snacks"            },
+        { "name": "USI-LS"            }
+    ]
+}

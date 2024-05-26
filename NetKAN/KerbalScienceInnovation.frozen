@@ -1,0 +1,18 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KerbalScienceInnovation",
+    "$kref":        "#/ckan/spacedock/1425",
+    "license":      "CC-BY-NC-ND-3.0",
+    "tags": [
+        "parts",
+        "science"
+    ],
+    "depends": [
+        { "name": "ModuleManager"   },
+        { "name": "TextureReplacer" }
+    ],
+    "install": [ {
+        "find":       "KSI",
+        "install_to": "GameData"
+    } ]
+}

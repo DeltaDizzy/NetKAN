@@ -1,0 +1,18 @@
+{
+    "spec_version": 1,
+    "identifier":   "PolishFlagPack",
+    "name":         "Polish Flag Pack",
+    "abstract":     "Small pack of Polish flags",
+    "author":       "Venthe",
+    "$kref":        "#/ckan/github/Venthe/KSP-Polish-Flag-Pack",
+    "ksp_version":  "any",
+    "x_netkan_force_v": true,
+    "license":      "MIT",
+    "comment": "flagmod",
+    "resources": {
+        "homepage": "https://github.com/Venthe/KSP-Polish-Flag-Pack"
+    },
+    "tags": [
+        "flags"
+    ]
+}

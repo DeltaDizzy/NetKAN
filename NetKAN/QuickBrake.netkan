@@ -3,7 +3,16 @@
     "identifier"   : "QuickBrake",
     "$kref"        : "#/ckan/spacedock/103",
     "$vref"        : "#/ckan/ksp-avc",
+    "x_netkan_epoch": 1,
     "license"      : "GPL-3.0",
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name" : "ClickThroughBlocker" }
+    ],
     "install": [
         {
             "file"       : "GameData/QuickMods/QuickBrake",

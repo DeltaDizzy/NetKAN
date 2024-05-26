@@ -1,18 +1,23 @@
 {
-  "spec_version": "v1.4",
-  "install": [
-    {
-      "install_to": "GameData",
-      "find": "PartAngleDisplay"
-    }
-  ],
-  "conflicts": [ { "name": "PartAngleDisplay" } ],
-  "depends": [
-        { "name" : "ToolbarController" }
+    "spec_version": "v1.4",
+    "identifier":   "PADContinued",
+    "$kref":        "#/ckan/spacedock/1679",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "MIT",
+    "tags": [
+        "plugin",
+        "editor",
+        "information"
     ],
-  "$vref": "#/ckan/ksp-avc",
-  "$kref": "#/ckan/spacedock/1679",
-  "x_via": "Automated Linuxgurugamer CKAN script",
-  "identifier": "PADContinued",
-  "license": "MIT"
+    "install": [ {
+        "find": "PartAngleDisplay",
+        "install_to": "GameData"
+    } ],
+    "conflicts": [
+        { "name": "PartAngleDisplay" }
+    ],
+    "depends": [
+        { "name" : "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ]
 }

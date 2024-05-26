@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "RedSpiderSkybox",
+    "$kref":        "#/ckan/spacedock/2124",
+    "license":      "restricted",
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "install": [ {
+        "find":       "TextureReplacer",
+        "install_to": "GameData/RedSpiderSkybox"
+    } ],
+    "depends": [
+        { "name": "TextureReplacer" }
+    ]
+}

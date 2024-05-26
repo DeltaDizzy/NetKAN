@@ -1,0 +1,25 @@
+{
+    "spec_version"   : 1,
+    "identifier"     : "DangIt",
+    "release_status" : "development",
+    "license"        : "GPL-3.0",
+    "$kref"          : "#/ckan/spacedock/307",
+    "depends" : [
+        { "name" : "ModuleManager" },
+        { "name" : "CommunityResourcePack" }
+    ],
+    "recommends" : [
+        { "name" : "Entropy" }
+    ],
+    "resources" : {
+        "homepage"     : "https://forum.kerbalspaceprogram.com/index.php?/topic/73920-105-alpha-6-dang-it-12-september-2015/&",
+        "bugtracker"   : "https://github.com/Ippo343/DangIt/issues",
+        "repository"   : "https://github.com/Ippo343/DangIt"
+    },
+    "install":[
+        {
+            "file":"GameData/DangIt",
+            "install_to":"GameData"
+        }
+    ]
+}

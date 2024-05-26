@@ -1,16 +1,12 @@
-{
-    "spec_version": 1,
-    "license": "CC-BY-NC-SA",
-    "$kref": "#/ckan/spacedock/664",
-    "$vref" : "#/ckan/ksp-avc",
-    "identifier": "ElephantEngine",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/139162-ElephantEngine"
-    },
-    "install": [
-        {
-            "file"       : "ElephantEngine",
-            "install_to" : "GameData"
-        }
-    ]
-}
+spec_version: v1.4
+identifier: ElephantEngine
+$kref: '#/ckan/spacedock/664'
+$vref: '#/ckan/ksp-avc'
+license: CC-BY-NC-SA-4.0
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+install:
+  - find: NecroBones
+    install_to: GameData

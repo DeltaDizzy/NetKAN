@@ -1,0 +1,24 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "KVVContinued",
+    "$vref":        "#/ckan/ksp-avc",
+    "$kref":        "#/ckan/spacedock/1092",
+    "license":      "unrestricted",
+    "tags": [
+        "plugin",
+        "editor"
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "KronalVesselViewer"
+        }
+    ],
+    "conflicts": [
+        { "name": "KronalVesselViewer" }
+    ],
+    "depends": [
+        { "name": "ToolbarController" },
+        { "name": "ClickThroughBlocker" }
+    ]
+}

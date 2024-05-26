@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "MechJebForAll",
+    "name":         "MechJeb and Engineer for all!",
+    "$kref":        "#/ckan/spacedock/1854",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "GPL-3.0",
+    "tags": [
+        "config",
+        "control"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "recommends": [
+        { "name": "MechJeb2" },
+        { "name": "KerbalEngineerRedux" }
+    ],
+    "install": [ {
+        "find": "MechJebForAll",
+        "install_to": "GameData"
+    } ]
+}

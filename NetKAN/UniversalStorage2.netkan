@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "UniversalStorage2",
+    "$kref":        "#/ckan/spacedock/2960",
+    "$vref":        "#/ckan/ksp-avc",
+    "license":      "restricted",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager"         },
+        { "name": "CommunityResourcePack" }
+    ],
+    "recommends": [
+        { "name": "DockingCamKURS" },
+        { "name": "KIS" },
+        { "name": "DMagicOrbitalScience" },
+        { "name": "ConnectedLivingSpace" }
+    ],
+    "supports": [
+        { "name": "kOS"         },
+        { "name": "Kerbalism"         },
+        { "name": "TacLifeSupport"         },
+        { "name": "IFILS"         },
+        { "name": "USILifeSupport"         },
+        { "name": "SnacksUtils"         },
+        { "name": "CryoTanks"         }
+    ],
+
+}

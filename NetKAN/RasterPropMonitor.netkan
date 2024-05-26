@@ -1,31 +1,51 @@
-{
-    "spec_version"   : "v1.4",
-    "identifier"     : "RasterPropMonitor",
-    "$kref"          : "#/ckan/github/Mihara/RasterPropMonitor",
-    "$vref"          : "#/ckan/ksp-avc",
-    "name"           : "RasterPropMonitor",
-    "abstract"       : "RasterPropMonitor is a plugin and toolkit that provides functional props within your IVA.",
-    "author"         : [ "MOARdV", "Mihara" ],
-    "license"        : "GPL-3.0",
-    "x_netkan_epoch" : "1",
-    "depends" : [
-        { "name" : "ModuleManager" },
-        { "name" : "RasterPropMonitor-Core" }
-    ],
-    "suggests" : [
-        { "name" : "VesselView"},
-        { "name" : "JSIAdvancedTransparentPods"},
-        { "name" : "SCANsat"}
-    ],
-    "install" : [
-        {
-            "find"       : "JSI",
-            "filter"     : ["RasterPropMonitor"],
-            "install_to" : "GameData"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/117471",
-        "repository": "https://github.com/Mihara/RasterPropMonitor"
-    }
-}
+spec_version: v1.4
+identifier: RasterPropMonitor
+name: RasterPropMonitor
+abstract: Modifies stock and some modded IVAs with functional props
+author:
+  - Mihara
+  - MOARdV
+  - JonnyOThan
+$kref: '#/ckan/spacedock/2534'
+$vref: '#/ckan/ksp-avc'
+license: GPL-3.0
+x_netkan_epoch: '1'
+x_netkan_force_v: true
+tags:
+  - config
+  - crewed
+  - first-person
+depends:
+  - name: ModuleManager
+  - name: RasterPropMonitor-Core
+recommends:
+  - name: DE-IVAExtension
+  - name: FreeIva
+suggests:
+  - name: Astrogator
+  - name: DockingPortAlignmentIndicator
+  - name: NavUtilitiesContinued
+  - name: SCANsat
+  - name: VesselView
+  - name: ProbeControlRoomRecontrolled
+  - name: kOSPropMonitor
+  - name: Chatterer
+  - name: Reviva
+  - name: MechJeb2
+  - name: ASETProps
+  - name: ASETAvionics
+  - name: Mk1LanderCanIVAReplbyASET
+  - name: MK12PodIVAReplacementbyASET
+  - name: ALCORIVAPatch
+  - name: ThroughTheEyesOfaKerbal
+  - name: QuickIVA
+  - name: KSAIVAUpgrade
+install:
+  - find: JSI
+    filter:
+      - RasterPropMonitor
+      - BasicMFD
+      - README.md
+      - LICENSE.md
+      - Agencies
+    install_to: GameData

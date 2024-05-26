@@ -1,0 +1,17 @@
+{
+    "spec_version": "v1.4",
+    "identifier":   "Switch-All",
+    "$kref":        "#/ckan/spacedock/1710",
+    "license":      "MIT",
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    "install": [ {
+        "find":       "Switch-All",
+        "install_to": "GameData",
+        "filter":     [ ".directory", "BeamedPower.xlsx", "KSPIE Brandwidths.xlsx" ]
+    } ]
+}

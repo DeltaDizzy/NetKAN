@@ -1,0 +1,16 @@
+{
+    "spec_version": "v1.18",
+    "identifier":   "MoreHeat",
+    "$kref":        "#/ckan/spacedock/1043",
+    "license":      "Unlicense",
+    "tags": [
+        "config"
+    ],
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ],
+    "install" : [ {
+        "find" : "MoreHeat!",
+        "install_to" : "GameData"
+    } ]
+}
